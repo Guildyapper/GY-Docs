@@ -117,7 +117,7 @@ The Premium message includes:
 
 ### Premium buttons do not load
 
-Use the `Open Store` button in `/premium`.
+Use the `Open Store` button in `/premium` or directly with [this link](https://discord.com/discovery/applications/1238194592982110248/store).
 
 ### Trial activation is disabled
 
@@ -126,5 +126,3 @@ The server may already have an active subscription, an active trial, or a previo
 ### A Premium feature still looks locked
 
 Run `/premium` to check status, then reopen the feature command after Discord updates the entitlement.
-
-<!-- TODO: Add exact Premium and VIP pricing if you want prices copied into docs. Current docs point users to the Discord checkout shown by /premium. -->
