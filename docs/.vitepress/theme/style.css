@@ -2,9 +2,77 @@
   --vp-c-brand-1: #00bcd4;
   --vp-c-brand-2: #0891b2;
   --vp-c-brand-3: #155e75;
+  --vp-layout-max-width: 100%;
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(120deg, #22d3ee, #818cf8);
   --gy-screenshot-border: rgba(125, 211, 252, 0.3);
+}
+
+.VPNavBar .container {
+  max-width: none !important;
+}
+
+.VPNavBarTitle .logo {
+  border-radius: 6px;
+}
+
+.VPNavBarMenuLink[href="https://guildyapper.com"],
+.VPNavBarMenuLink[href="https://guildyapper.com/"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.VPNavBarMenuLink[href="https://guildyapper.com"]::before,
+.VPNavBarMenuLink[href="https://guildyapper.com/"]::before {
+  width: 18px;
+  height: 18px;
+  content: "";
+  background: url("/favicon.ico") center / contain no-repeat;
+  border-radius: 4px;
+}
+
+@media (min-width: 960px) {
+  .VPNavBar.has-sidebar .title {
+    padding-left: 24px !important;
+  }
+
+  .VPNavBar.has-sidebar .content {
+    padding-right: 24px !important;
+  }
+
+  .VPSidebar {
+    padding-left: 24px !important;
+  }
+
+  .VPContent.has-sidebar {
+    padding-right: 24px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .VPDoc.has-aside .content-container,
+  .VPDoc:not(.has-aside) .content-container {
+    max-width: none !important;
+  }
+
+  .VPDoc.has-aside .content {
+    max-width: none !important;
+  }
+
+  .VPDoc .container {
+    max-width: none !important;
+  }
+}
+
+.VPFooter a {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.VPFooter a:hover {
+  text-decoration: underline;
 }
 
 .screenshot-slot {

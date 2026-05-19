@@ -1,6 +1,8 @@
 {
   "name": "guildyapper-docs",
   "version": "0.1.0",
+  "description": "Public GuildYapper user documentation.",
+  "license": "CC-BY-4.0",
   "private": true,
   "type": "module",
   "scripts": {
