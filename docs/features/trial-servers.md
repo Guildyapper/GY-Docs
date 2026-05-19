@@ -26,7 +26,7 @@ Trial staff use the TrialMaster/officer role. Applicants use the trial signup bu
 
 - A Discord server dedicated to trials.
 - `/setup` run as Trial Server.
-- Bot permissions to create roles, channels, categories, and invites.
+- Bot permissions to create roles, channels, categories, and invites. The default invite is recommended; the minimal-permission invite usually needs manual permission work for Trial Servers.
 - TrialMaster/officer role and Trialee role configured.
 
 ::: warning Use A Dedicated Server

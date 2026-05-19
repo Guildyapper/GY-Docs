@@ -6,9 +6,31 @@ Use `/setup` once after inviting GuildYapper. Setup chooses the server type, reg
 /setup
 ```
 
+## Invite GuildYapper
+
+Use the default invite for the smoothest setup:
+
+[Invite GuildYapper](https://discord.com/oauth2/authorize?client_id=1238194592982110248)
+
+GuildYapper uses Administrator by default to avoid setup failures while it creates or updates roles, channels, logs, signup messages, Trial Server structures, and other Discord resources. This is the recommended option for most servers, especially if you want Trial Server automation.
+
+If your server prefers to grant permissions manually, use the minimal invite:
+
+[Invite GuildYapper with minimal permissions](https://discord.com/oauth2/authorize?client_id=1238194592982110248&permissions=277025639488&integration_type=0&scope=bot+applications.commands)
+
+With the minimal invite, some features may show Discord permission errors until you grant the missing permissions to the bot role or channel overrides. Common examples include creating roles, creating or reading channels, creating invites, renaming members, deleting messages, clearing signup channels, and removing failed trial members.
+
 ::: warning Admin Required
 Only a Discord member with Administrator permission can run `/setup`. After setup, day-to-day GuildYapper admin actions use the configured officer/admin role.
 :::
+
+## Permissions And Privacy
+
+GuildYapper does not have broad access to read normal Discord channel message text. Discord treats Message Content as a privileged intent that controls access to message fields such as content, embeds, attachments, and components. GuildYapper does not have that privileged intent approved, so Discord does not send it ordinary channel message text unless you directly interact with the bot in a way that provides data to it.
+
+GuildYapper stores the information users and officers directly provide for the product, such as signups, attendance, roster/member profile details, gear information, configuration choices, and related bot workflow data.
+
+Read Discord's explanation here: [What are Privileged Intents?](https://support-dev.discord.com/hc/en-us/articles/4404772028055-Message-Content-Privileged-Intent-FAQ)
 
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>
@@ -63,7 +85,7 @@ Read more in [Server Types](/getting-started/server-types).
 
 ## Recommended First Setup For A Guild
 
-1. Invite GuildYapper.
+1. [Invite GuildYapper](https://discord.com/oauth2/authorize?client_id=1238194592982110248).
 2. Run `/setup`.
 3. Choose your region.
 4. Choose `Guild / Alliance`.

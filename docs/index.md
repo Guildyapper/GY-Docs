@@ -10,6 +10,9 @@ hero:
       text: Start Setup
       link: /getting-started/setup
     - theme: alt
+      text: Invite Bot
+      link: https://discord.com/oauth2/authorize?client_id=1238194592982110248
+    - theme: alt
       text: Open Website
       link: https://guildyapper.com
 
@@ -34,7 +37,7 @@ GuildYapper combines a Discord bot with the [GuildYapper website](https://guildy
 />
 
 ::: info Best First Read
-If GuildYapper is new in your server, start with [Setup](/getting-started/setup). If it is already running, use the cards below to jump into the feature you need.
+If GuildYapper is new in your server, [invite the bot](https://discord.com/oauth2/authorize?client_id=1238194592982110248), then start with [Setup](/getting-started/setup). If it is already running, use the cards below to jump into the feature you need.
 :::
 
 <div class="doc-grid">

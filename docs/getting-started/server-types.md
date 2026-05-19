@@ -83,7 +83,7 @@ Trial Server setup creates:
 | Message | A Trial Signup message with a button |
 
 ::: warning Use A Fresh Trial Discord
-Trial Server setup creates roles, channels, categories, permissions, and an invite. Use it on a new dedicated Discord whenever possible.
+Trial Server setup creates roles, channels, categories, permissions, and an invite. Use it on a new dedicated Discord whenever possible, and prefer the default bot invite instead of the minimal-permission invite.
 :::
 
 <div class="screenshot-slot">
