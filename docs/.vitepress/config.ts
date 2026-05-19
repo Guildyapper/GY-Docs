@@ -6,10 +6,113 @@ const discordIcon =
 const githubIcon =
   '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M12 .297C5.373.297 0 5.67 0 12.297c0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.725-4.042-1.61-4.042-1.61-.546-1.388-1.333-1.758-1.333-1.758-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.238 1.84 1.238 1.07 1.833 2.808 1.304 3.493.997.108-.776.418-1.305.762-1.605-2.665-.303-5.466-1.333-5.466-5.93 0-1.31.468-2.382 1.236-3.222-.124-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.52 11.52 0 0 1 3.003-.404c1.018.005 2.045.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.655 1.653.243 2.873.12 3.176.77.84 1.235 1.912 1.235 3.222 0 4.61-2.805 5.624-5.477 5.92.43.372.814 1.103.814 2.222 0 1.604-.015 2.897-.015 3.292 0 .322.216.696.825.578C20.565 22.092 24 17.597 24 12.297c0-6.627-5.373-12-12-12Z"/></svg>';
 
+const enSidebar = [
+  {
+    text: "Start Here",
+    items: [
+      { text: "Introduction", link: "/" },
+      { text: "Setup", link: "/getting-started/setup" },
+      { text: "Server Types", link: "/getting-started/server-types" },
+      { text: "Website Overview", link: "/website/overview" },
+    ],
+  },
+  {
+    text: "Discord Bot",
+    items: [
+      { text: "Command Overview", link: "/bot/commands" },
+      { text: "Members and Roster", link: "/bot/members-and-roster" },
+      { text: "Configuration", link: "/bot/configuration" },
+      { text: "Schedulers", link: "/bot/schedulers" },
+    ],
+  },
+  {
+    text: "Event Management",
+    items: [
+      { text: "Signups", link: "/features/signups" },
+      { text: "Attendance", link: "/features/attendance" },
+      { text: "Parties and Waitlist", link: "/features/parties-and-waitlist" },
+      { text: "Scores", link: "/features/scores" },
+    ],
+  },
+  {
+    text: "Tracking and Public Tools",
+    items: [
+      { text: "Guild Tracker", link: "/features/guild-tracker" },
+      { text: "Tierlists and Stats", link: "/features/tierlists-and-stats" },
+    ],
+  },
+  {
+    text: "Community Tools",
+    items: [
+      { text: "Yap", link: "/features/yap" },
+      { text: "Recruiting, Mercs, Verify", link: "/features/community-tools" },
+      { text: "Trial Servers", link: "/features/trial-servers" },
+    ],
+  },
+  {
+    text: "Premium and Reference",
+    items: [
+      { text: "Premium", link: "/premium" },
+      { text: "Slash Commands", link: "/reference/commands" },
+    ],
+  },
+];
+
+const ptSidebar = [
+  {
+    text: "Comece Aqui",
+    items: [
+      { text: "Introdução", link: "/pt/" },
+      { text: "Configuração", link: "/pt/getting-started/setup" },
+      { text: "Tipos de Servidor", link: "/pt/getting-started/server-types" },
+      { text: "Visão Geral do Site", link: "/pt/website/overview" },
+    ],
+  },
+  {
+    text: "Bot do Discord",
+    items: [
+      { text: "Visão Geral dos Comandos", link: "/pt/bot/commands" },
+      { text: "Membros e Roster", link: "/pt/bot/members-and-roster" },
+      { text: "Configuração", link: "/pt/bot/configuration" },
+      { text: "Agendadores", link: "/pt/bot/schedulers" },
+    ],
+  },
+  {
+    text: "Gerenciamento de Eventos",
+    items: [
+      { text: "Inscrições", link: "/pt/features/signups" },
+      { text: "Presença", link: "/pt/features/attendance" },
+      { text: "Grupos e Lista de Espera", link: "/pt/features/parties-and-waitlist" },
+      { text: "Pontuações", link: "/pt/features/scores" },
+    ],
+  },
+  {
+    text: "Rastreamento e Ferramentas Públicas",
+    items: [
+      { text: "Guild Tracker", link: "/pt/features/guild-tracker" },
+      { text: "Tierlists e Estatísticas", link: "/pt/features/tierlists-and-stats" },
+    ],
+  },
+  {
+    text: "Ferramentas da Comunidade",
+    items: [
+      { text: "Yap", link: "/pt/features/yap" },
+      { text: "Recrutamento, Mercs, Verificação", link: "/pt/features/community-tools" },
+      { text: "Servidores de Trial", link: "/pt/features/trial-servers" },
+    ],
+  },
+  {
+    text: "Premium e Referência",
+    items: [
+      { text: "Premium", link: "/pt/premium" },
+      { text: "Comandos Slash", link: "/pt/reference/commands" },
+    ],
+  },
+];
+
 export default defineConfig({
   title: "GuildYapper Docs",
   description: "User guides for setting up and running GuildYapper.",
-  lang: "en-US",
   cleanUrls: true,
   lastUpdated: true,
   sitemap: {
@@ -20,70 +123,43 @@ export default defineConfig({
     ["meta", { property: "og:site_name", content: "GuildYapper Docs" }],
     ["meta", { property: "og:type", content: "website" }],
   ],
+  locales: {
+    root: {
+      label: "English",
+      lang: "en-US",
+      themeConfig: {
+        nav: [
+          { text: "Guide", link: "/" },
+          { text: "Setup", link: "/getting-started/setup" },
+          { text: "Features", link: "/features/signups" },
+          { text: "Commands", link: "/reference/commands" },
+          { text: "GuildYapper", link: "https://guildyapper.com" },
+        ],
+        sidebar: enSidebar,
+      },
+    },
+    pt: {
+      label: "Português",
+      lang: "pt-BR",
+      link: "/pt/",
+      themeConfig: {
+        nav: [
+          { text: "Guia", link: "/pt/" },
+          { text: "Configuração", link: "/pt/getting-started/setup" },
+          { text: "Recursos", link: "/pt/features/signups" },
+          { text: "Comandos", link: "/pt/reference/commands" },
+          { text: "GuildYapper", link: "https://guildyapper.com" },
+        ],
+        sidebar: ptSidebar,
+      },
+    },
+  },
   themeConfig: {
     siteTitle: "GuildYapper Docs",
     logo: "/favicon.ico",
     search: {
       provider: "local",
     },
-    nav: [
-      { text: "Guide", link: "/" },
-      { text: "Setup", link: "/getting-started/setup" },
-      { text: "Features", link: "/features/signups" },
-      { text: "Commands", link: "/reference/commands" },
-      { text: "GuildYapper", link: "https://guildyapper.com" },
-    ],
-    sidebar: [
-      {
-        text: "Start Here",
-        items: [
-          { text: "Introduction", link: "/" },
-          { text: "Setup", link: "/getting-started/setup" },
-          { text: "Server Types", link: "/getting-started/server-types" },
-          { text: "Website Overview", link: "/website/overview" },
-        ],
-      },
-      {
-        text: "Discord Bot",
-        items: [
-          { text: "Command Overview", link: "/bot/commands" },
-          { text: "Members and Roster", link: "/bot/members-and-roster" },
-          { text: "Configuration", link: "/bot/configuration" },
-          { text: "Schedulers", link: "/bot/schedulers" },
-        ],
-      },
-      {
-        text: "Event Management",
-        items: [
-          { text: "Signups", link: "/features/signups" },
-          { text: "Attendance", link: "/features/attendance" },
-          { text: "Parties and Waitlist", link: "/features/parties-and-waitlist" },
-          { text: "Scores", link: "/features/scores" },
-        ],
-      },
-      {
-        text: "Tracking and Public Tools",
-        items: [
-          { text: "Guild Tracker", link: "/features/guild-tracker" },
-          { text: "Tierlists and Stats", link: "/features/tierlists-and-stats" },
-        ],
-      },
-      {
-        text: "Community Tools",
-        items: [
-          { text: "Yap", link: "/features/yap" },
-          { text: "Recruiting, Mercs, Verify", link: "/features/community-tools" },
-          { text: "Trial Servers", link: "/features/trial-servers" },
-        ],
-      },
-      {
-        text: "Premium and Reference",
-        items: [
-          { text: "Premium", link: "/premium" },
-          { text: "Slash Commands", link: "/reference/commands" },
-        ],
-      },
-    ],
     socialLinks: [
       { icon: { svg: discordIcon }, link: "https://discord.gg/x2nKYuu2Z2" },
       { icon: { svg: githubIcon }, link: "https://github.com/Guildyapper/GY-Docs" },
