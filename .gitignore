@@ -5,3 +5,4 @@ docs/.vitepress/dist/
 Thumbs.db
 *.log
 dist/
+/.idea/
