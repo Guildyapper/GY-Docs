@@ -12,9 +12,10 @@ Parties and waitlists decide how a full signup becomes an actual plan. GuildYapp
 ## What It Does
 
 - Creates and configures Node War parties such as Main, Defense, Flex, or custom groups.
-- Assigns members to configured parties.
+- Assigns members to configured parties globally or per signup profile.
+- Adds function roles such as Elephant rider, Shotcaller, or BSR Target to signup displays and priority logic.
 - Splits oversized parties into sub-parties.
-- Uses class, party, individual, and waitlist-streak priority when configured.
+- Uses class, party, function-role, individual, and waitlist-streak priority when configured.
 - Lets officers temporarily move members for one event or permanently change roster party assignment.
 - Supports waitlist behavior such as default order, custom priority, gearscore, random, or manual.
 
@@ -26,7 +27,7 @@ Officers/admins configure parties and waitlist behavior. Members see the resulti
 
 - Guild / Alliance server type.
 - Officer/admin role.
-- Node War parties configured through `/configure nwparty`.
+- Node War parties configured through `/configure nwparty` or Website Signup Profiles.
 - Optional class priorities through `/configure class`.
 - Optional member overrides through `/configure member`.
 
@@ -54,6 +55,34 @@ Every signup has a Main/default party. Guild / Alliance setup also creates start
 ::: info Priority Adds Together
 A member's effective priority can include personal priority, class priority, party priority, and waitlist-streak priority.
 :::
+
+## Signup Profiles
+
+Signup profiles are templates for which parties and function roles are active on a signup. New servers receive default profiles for Construction Nodewar, Occupation Nodewar, Siege, Blue Battlefield, and War of the Roses. Existing parties are enabled on every default profile during migration, so older signup behavior continues until officers customize profiles.
+
+Profiles can be selected when creating Node War signups and automatic scheduled Node War signups. Custom signups can also use profiles when parties are enabled for that custom event. GvG and Guild League signups do not use signup profiles.
+
+Use [Website Signup Profiles](https://guildyapper.com/management/signup-profiles) to:
+
+- Enable or disable profiles.
+- Choose which parties/platoons are active per profile.
+- Choose which function roles are active per profile.
+- Assign a member to different parties per profile, such as Flex for Construction and Main for Occupation.
+- Assign profile-specific function roles to members.
+
+## Function Roles
+
+Function roles are signup planning labels, not Discord roles. They can show an emoji beside a member in signup views and can add priority in custom-priority waitlist mode.
+
+Default function roles are:
+
+| Role | Default emoji |
+| --- | --- |
+| Elephant rider | Elephant |
+| Shotcaller | Announcement |
+| BSR Target | Red circle |
+
+Each function role can have priority, priority limit rate, and reduced priority on limit. Use these the same way you use party priority limits when too many members with the same role are already attending.
 
 ## Overflow Types
 
@@ -91,6 +120,7 @@ The website party builder and Discord management actions can handle two kinds of
 | --- | --- |
 | Temporary event move | You only want this member moved for the current signup. |
 | Server roster move | You want this member's default party assignment changed for future signups. |
+| Profile assignment | You want this member's default party changed only for one signup profile. |
 
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>

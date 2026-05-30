@@ -6,6 +6,7 @@ The website is the larger dashboard side of GuildYapper. Discord is best for qui
   <a href="https://guildyapper.com">Home</a>
   <a href="https://guildyapper.com/profile">Profile</a>
   <a href="https://guildyapper.com/management/signups">Signups</a>
+  <a href="https://guildyapper.com/management/signup-profiles">Signup Profiles</a>
   <a href="https://guildyapper.com/management/roster">Roster</a>
   <a href="https://guildyapper.com/management/scores">Scores Management</a>
   <a href="https://guildyapper.com/scores">Personal Scores</a>
@@ -21,6 +22,7 @@ Pages that show your server, roster, profile, or management data require Discord
 | --- | --- | --- |
 | Profile | [Open](https://guildyapper.com/profile) | Update your own family name, gear, class/spec, Garmoth link, and profile details. |
 | Signups | [Open](https://guildyapper.com/management/signups) | Browse signups, open an event, manage attendance, assign parties, and review member details. |
+| Signup Profiles | [Open](https://guildyapper.com/management/signup-profiles) | Configure signup profile templates, active parties, function roles, and per-profile member assignments. |
 | Roster | [Open](https://guildyapper.com/management/roster) | View and manage members, priorities, classes, parties, attendance summaries, and score snapshots. |
 | Scores Management | [Open](https://guildyapper.com/management/scores) | Upload and manage Ikusa or BDO OCR score sessions for your server. |
 | Personal Scores | [Open](https://guildyapper.com/scores) | Browse your own uploads, bookmarks, sessions, and personal stats. |
@@ -42,10 +44,11 @@ Pages that show your server, roster, profile, or management data require Discord
 ## What Officers Usually Use
 
 1. [Signups](https://guildyapper.com/management/signups) to manage event attendance.
-2. [Roster](https://guildyapper.com/management/roster) to review and edit member data.
-3. [Scores Management](https://guildyapper.com/management/scores) to upload and correct war score sessions.
-4. [Guild Tracker Dashboard](https://guildyapper.com/guild-tracker/dashboard) to watch tracked guild activity.
-5. [Class Performance](https://guildyapper.com/class-performance) to compare class results across data sources.
+2. [Signup Profiles](https://guildyapper.com/management/signup-profiles) to manage party and function-role templates.
+3. [Roster](https://guildyapper.com/management/roster) to review and edit member data.
+4. [Scores Management](https://guildyapper.com/management/scores) to upload and correct war score sessions.
+5. [Guild Tracker Dashboard](https://guildyapper.com/guild-tracker/dashboard) to watch tracked guild activity.
+6. [Class Performance](https://guildyapper.com/class-performance) to compare class results across data sources.
 
 ## What Members Usually Use
 

@@ -15,6 +15,7 @@ Signups are the core event flow for Guild / Alliance servers. They let officers 
 - Tracks attendance states such as Can, Waiting, Undecided, Can't, Vacation, and No Show.
 - Lets officers update caps, details, participants, results, and charts.
 - Supports waitlists and automatic move-ins based on server rules.
+- Supports signup profiles for Node War and custom events with parties enabled.
 - Connects event attendance to website management and score sessions.
 
 ## Who Can Use It
@@ -47,6 +48,7 @@ Node War signup options include:
 | `info` | No | Extra details shown on the signup. |
 | `skip-streak` | No | Excludes this signup from waitlist-streak/fair-mode logic. |
 | `role` | No | Role to mention when posting. |
+| `profile` | No | Signup profile used for party and function-role templates. |
 
 ::: tip Visible Attendance
 Use visible attendance when your internal cap and public-facing target are different. For example, you may internally allow overflow while showing a cleaner target to members.
@@ -88,6 +90,24 @@ Use custom signups for practice, training, meetings, or other events that still 
 ::: info Custom Party Size
 Custom and GvG signups can use a custom party size. If no custom size is set, GuildYapper uses normal signup behavior.
 :::
+
+Custom signups can use a signup profile when parties are enabled for that custom event. GvG and Guild League signups ignore signup profiles.
+
+## Signup Profiles
+
+Signup profiles decide which parties/platoons and function roles apply to a signup. They also let officers give members different default assignments per event type.
+
+Default profiles are created automatically:
+
+- Construction Nodewar
+- Occupation Nodewar
+- Siege
+- Blue Battlefield
+- War of the Roses
+
+Profiles are optional. Existing Node War signups keep working with the default profile, and existing parties are enabled on all default profiles after migration.
+
+Officers can manage profiles on [Website Signup Profiles](https://guildyapper.com/management/signup-profiles). The page controls active parties, function roles, profile-specific member party assignments, and profile-specific member function roles.
 
 ## Attendance States
 
@@ -135,6 +155,8 @@ Common management actions include:
 ## Website Signup Management
 
 Open [Website Signups](https://guildyapper.com/management/signups) for a bigger event view. Officers can browse signups, open one event, inspect participants, update attendance, move members, and work with party assignments.
+
+Use [Website Signup Profiles](https://guildyapper.com/management/signup-profiles) when you want to change the templates that future signups use.
 
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>

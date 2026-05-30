@@ -51,12 +51,15 @@ The automatic signup scheduler lets you pick:
 2. Node War days.
 3. Default attendance caps.
 4. Optional visible caps.
-5. Lead time before Node War.
-6. Posting mode: per day or all at once.
+5. Optional signup profiles for the posted signups.
+6. Lead time before Node War.
+7. Posting mode: per day or all at once.
 
 ::: tip Visible Caps
 Visible caps let the signup show a different public cap than the internal max attendance. Use this when officers want a cleaner number shown to members while still allowing controlled overflow.
 :::
+
+Signup profiles let scheduled Node War posts pick the party/function-role template for each day. Select one profile to reuse it for every configured day, or select profiles in the same order as your Node War days.
 
 ## Closing Signups
 
@@ -87,7 +90,7 @@ That scheduler requires Premium. Check:
 
 ### A scheduler did not post
 
-Check the selected channels, selected days, server region/time zone, and whether the signup channel still exists.
+Check the selected channels, selected days, selected signup profile, server region/time zone, and whether the signup channel still exists.
 
 ### Members did not get DMs
 
