@@ -28,7 +28,7 @@ Members can usually respond to signups. Officers/admins create and manage signup
 - Officer/admin role configured.
 - Guild names configured for guild/alliance registration.
 - Optional Node War voice channel for missing-in-voice checks.
-- Optional parties configured through `/configure nwparty`.
+- Optional parties configured through `/configure parties`.
 
 ## Create A Node War Signup
 

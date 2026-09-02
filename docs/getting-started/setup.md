@@ -104,7 +104,7 @@ Read more in [Server Types](/getting-started/server-types).
 ```
 
 ::: tip Default Parties
-Guild / Alliance setup creates starter Node War parties such as Main, Defense, and Flex. You can adjust these later with `/configure nwparty`.
+Guild / Alliance setup creates starter Node War parties such as Main, Defense, and Flex. You can adjust these later with `/configure parties`.
 :::
 
 <div class="screenshot-slot">
@@ -119,7 +119,8 @@ The next useful actions are:
 
 ```text
 /configure server
-/configure nwparty
+/configure parties
+/configure profiles
 /configure class
 /member missing
 /signup nodewar

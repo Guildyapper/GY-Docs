@@ -4,7 +4,8 @@ Most server settings live under `/configure`. Use it after `/setup` to fine-tune
 
 ```text
 /configure server
-/configure nwparty
+/configure parties
+/configure profiles
 /configure class
 /configure member member:@Member
 /configure scheduler

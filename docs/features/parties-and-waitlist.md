@@ -3,7 +3,7 @@
 Parties and waitlists decide how a full signup becomes an actual plan. GuildYapper can keep people in configured groups, split large parties, respect priorities, and move waitlisted members into open spots.
 
 ```text
-/configure nwparty
+/configure parties
 /configure class
 /configure member member:@Member
 /configure server
@@ -26,13 +26,13 @@ Officers/admins configure parties and waitlist behavior. Members see the resulti
 
 - Guild / Alliance server type.
 - Officer/admin role.
-- Node War parties configured through `/configure nwparty`.
+- Node War parties configured through `/configure parties`.
 - Optional class priorities through `/configure class`.
 - Optional member overrides through `/configure member`.
 
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>
-  Add a screenshot of `/configure nwparty`.
+  Add a screenshot of `/configure parties`.
   Suggested path: `/screenshots/parties/nwparty-config.webp`
 </div>
 
