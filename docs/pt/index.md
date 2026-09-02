@@ -77,7 +77,7 @@ Se o GuildYapper é novo no seu servidor, [convide o bot](https://discord.com/oa
   <a href="https://guildyapper.com/profile">Perfil</a>
   <a href="https://guildyapper.com/guild-tracker/dashboard">Guild Tracker</a>
   <a href="https://guildyapper.com/class-performance">Desempenho de Classes</a>
-  <a href="https://guildyapper.com/support">Suporte</a>
+  <a href="https://discord.gg/x2nKYuu2Z2">Suporte</a>
 </div>
 
 ## No que o GuildYapper Ajuda

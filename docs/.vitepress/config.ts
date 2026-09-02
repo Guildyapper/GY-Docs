@@ -166,7 +166,7 @@ export default defineConfig({
     ],
     footer: {
       message:
-        '<a href="https://discord.gg/x2nKYuu2Z2">Discord</a> · <a href="https://github.com/Guildyapper/GY-Docs">GitHub</a> · <a href="https://guildyapper.com/privacy">Privacy Policy</a> · <a href="https://guildyapper.com/tos">Terms of Service</a> · <a href="https://guildyapper.com/support">Support</a> · <a href="https://ko-fi.com/guildyapper">Donate</a>',
+        '<a href="https://discord.gg/x2nKYuu2Z2">Discord</a> · <a href="https://github.com/Guildyapper/GY-Docs">GitHub</a> · <a href="https://guildyapper.com/privacy">Privacy Policy</a> · <a href="https://guildyapper.com/tos">Terms of Service</a> · <a href="https://discord.gg/x2nKYuu2Z2">Support</a> · <a href="https://ko-fi.com/guildyapper">Donate</a>',
       copyright: "© GuildYapper. Documentation licensed under CC BY 4.0.",
     },
   },
