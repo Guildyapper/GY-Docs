@@ -1,3 +1,7 @@
+---
+description: Premium and VIP pricing, the full list of what Premium unlocks, and what happens to your config when it lapses.
+---
+
 # Premium
 
 Premium unlocks advanced automation and customization for a GuildYapper server while supporting development.
@@ -6,15 +10,34 @@ Premium unlocks advanced automation and customization for a GuildYapper server w
 /premium
 ```
 
-## What It Does
+## Plans
 
-Premium unlocks:
+| Plan | Price | Includes |
+| --- | --- | --- |
+| Free | — | Signups, attendance, roster, scores, and every public tracker, plus 5 signup profiles and 5 function roles. |
+| Premium | US$7.99/month | Everything listed in [What Premium Unlocks](#what-premium-unlocks) below. |
+| VIP | US$19.99/month | Exactly the same feature set as Premium. |
 
-- Advanced scheduler automation.
-- Signup customization through member configuration.
-- Custom bot profile options.
-- Direct-message utilities.
-- Premium-only scheduler actions such as automatic signup posting, closing, pre-war announcements, and inactive-member checks.
+::: info VIP Does Not Unlock More Than Premium
+VIP costs more than Premium but unlocks **exactly the same features**. It exists for guilds that want to support GuildYapper's development beyond the base Premium price, not for guilds that want extra functionality.
+:::
+
+Prices are set by Discord's store, billed in US dollars as a recurring subscription, and are managed and cancelled from Discord's own user subscription settings.
+
+<div class="screenshot-slot">
+  <strong>Screenshot placeholder</strong>
+  Add a screenshot of the Premium and VIP plan cards.
+  Suggested path: `/screenshots/premium/plans.webp`
+</div>
+
+## What Premium Unlocks
+
+- **VOD Reviews** — timestamped notes and Ikusa context on top of any uploaded recording. See [VOD Reviews](/scores/vod-reviews).
+- **Scheduler automation** — automatic signup posting and closing, pre-war announcements, and inactive-member checks. See [Schedulers](/bot/schedulers).
+- **Attendance safeguards** — no-show penalties and an attendance watch channel for stale responses. See [Server Settings](/configuration/server-settings).
+- **Smart signup flow** — auto-signup from weekly availability, and waitlist move DMs. See [Server Settings](/configuration/server-settings) and [Waitlist and Priority](/events/waitlist-and-priority).
+- **Custom signup profiles and unlimited function roles** — beyond the free plan's 5 and 5. See [Event Types and Signup Profiles](/events/event-types) and [Platoons and Function Roles](/events/platoons).
+- **Member markers, a custom bot profile, and officer DMs** — covered below in [Included Features](#included-features).
 
 ## Who Can Use It
 
@@ -102,6 +125,12 @@ GuildYapper's Premium message states that any member on the Discord server can p
 ::: warning Purchaser Leaves The Server
 Subscriptions are cancelled when the user who purchased the subscription leaves the Discord server.
 :::
+
+## What Happens When It Ends
+
+When Premium ends, your configuration is **preserved** — it simply stops applying until Premium is active again.
+
+The one exception is the custom bot profile: it is reverted, since a Premium-only avatar or nickname would otherwise stay visibly active on a server without an active subscription.
 
 ## Store And Donations
 

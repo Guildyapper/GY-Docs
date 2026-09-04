@@ -1,9 +1,17 @@
+---
+description: The full list of GuildYapper's user-facing slash commands, grouped by area.
+---
+
 # Slash Commands
 
-This page lists the user-facing slash commands found in GuildYapper's Discord bot. Discord may show fewer commands depending on your server type.
+This page lists the user-facing slash commands found in GuildYapper's Discord bot, with a **Who** column showing who typically reaches for each one.
 
 ::: info Server Type Matters
-Guild / Alliance, Community, and Trial Server mode do not share the exact same command set. If a command is missing, check `/configure server`.
+Guild / Alliance, Community, and Trial Server are different Discord server types, chosen in `/setup`. Discord only shows the commands your server type unlocks — Community and Trial commands never appear on a Guild / Alliance server, and vice versa. The bot's own built-in `/help` menu can lag behind; this page follows what Discord actually registers.
+:::
+
+::: tip Member Vs Officer
+**Member** commands are available to anyone with the configured member role. **Officer** commands require the configured officer/admin role. If the wrong people can or cannot use a command, check `/configure server`.
 :::
 
 ## Setup And Help
@@ -14,31 +22,35 @@ Guild / Alliance, Community, and Trial Server mode do not share the exact same c
 /premium
 ```
 
-| Command | Use |
-| --- | --- |
-| `/setup` | First-time server setup. Administrator permission required. |
-| `/help` | Opens the command help menu. |
-| `/premium` | Shows Premium status, trial, store, subscription, and donation buttons. |
+| Command | Who | Use |
+| --- | --- | --- |
+| `/setup` | Officer | First-time server setup. Administrator permission required. |
+| `/help` | Member | Opens the command help menu. |
+| `/premium` | Member | Shows Premium status, trial, store, subscription, and donation buttons. |
 
 ## Configuration
 
 ```text
 /configure server
-/configure nwparty
+/configure parties
+/configure profiles
 /configure class
 /configure member member:@Member
 /configure scheduler
 /configure guildfilter file:guilds.txt
+/priority view
 ```
 
-| Command | Use |
-| --- | --- |
-| `/configure server` | Server type, region, roles, channels, Yap, tracker, guild names, and Node War behavior. |
-| `/configure nwparty` | Node War parties, limits, priority, overflow, targets, and assignments. |
-| `/configure class` | Class/spec priorities and class type priority limits. |
-| `/configure member` | Individual member configuration. |
-| `/configure scheduler` | Reminder and automation schedules. |
-| `/configure guildfilter` | Upload custom Guild Tracker filter file. |
+| Command | Who | Use |
+| --- | --- | --- |
+| `/configure server` | Officer | Server type, region, roles, channels, Yap, tracker, guild names, and Node War behavior. |
+| `/configure parties` | Officer | Platoons (in-game parties) and function roles: Discord role, priority, limit, reduction, class exclusion, size, overflow, and target. |
+| `/configure profiles` | Officer | Signup profiles per event type — which platoons and function roles each event layout offers. |
+| `/configure class` | Officer | Class/spec priorities and class type priority limits. |
+| `/configure member` | Officer | Individual member configuration. |
+| `/configure scheduler` | Officer | Reminder and automation schedules. |
+| `/configure guildfilter` | Officer | Upload custom Guild Tracker filter file. |
+| `/priority view` | Officer | Paginated priority overview by Family, Priority, and Class, with Member list, Config overview, and Get CSV buttons. See [Waitlist and Priority](/events/waitlist-and-priority). |
 
 ## Signups
 
@@ -50,13 +62,13 @@ Guild / Alliance, Community, and Trial Server mode do not share the exact same c
 /signup list
 ```
 
-| Command | Use |
-| --- | --- |
-| `/signup nodewar` | Create a Node War signup. |
-| `/signup gvg` | Create a ranked or practice GvG signup. |
-| `/signup gleague` | Create Guild League signup time slots. |
-| `/signup custom` | Create a custom event signup. |
-| `/signup list` | List and manage existing signups. |
+| Command | Who | Use |
+| --- | --- | --- |
+| `/signup nodewar` | Officer | Create a Node War signup. |
+| `/signup gvg` | Officer | Create a ranked or practice GvG signup. |
+| `/signup gleague` | Officer | Create Guild League signup time slots. |
+| `/signup custom` | Officer | Create a custom event signup. |
+| `/signup list` | Officer | List and manage existing signups. |
 
 ## Attendance
 
@@ -67,12 +79,12 @@ Guild / Alliance, Community, and Trial Server mode do not share the exact same c
 /attendance export
 ```
 
-| Command | Use |
-| --- | --- |
-| `/attendance me` | View your own attendance. |
-| `/attendance member` | View one member's attendance. |
-| `/attendance overview` | View server attendance overview. |
-| `/attendance export` | Export attendance to CSV. |
+| Command | Who | Use |
+| --- | --- | --- |
+| `/attendance me` | Member | View your own attendance. |
+| `/attendance member` | Officer | View one member's attendance. |
+| `/attendance overview` | Officer | View server attendance overview. |
+| `/attendance export` | Officer | Export attendance to CSV. |
 
 ## Members
 
@@ -81,14 +93,16 @@ Guild / Alliance, Community, and Trial Server mode do not share the exact same c
 /member view member:@Member
 /member list sorting:gearscore
 /member missing
+/stats classes
 ```
 
-| Command | Use |
-| --- | --- |
-| `/member update` | Update your own member details. |
-| `/member view` | View one member's gear/profile information. |
-| `/member list` | List members sorted by gearscore, class, or guild. |
-| `/member missing` | Mention or list members who have not registered yet. |
+| Command | Who | Use |
+| --- | --- | --- |
+| `/member update` | Member | Update your own member details. |
+| `/member view` | Member | View one member's gear/profile information. |
+| `/member list` | Officer | List members sorted by gearscore, class, or guild. |
+| `/member missing` | Officer | Mention or list members who have not registered yet. |
+| `/stats classes` | Member | View your server's class distribution among registered members. |
 
 ## Scores
 
@@ -97,10 +111,10 @@ Guild / Alliance, Community, and Trial Server mode do not share the exact same c
 /scores upload file:score.png
 ```
 
-| Command | Use |
-| --- | --- |
-| `/scores menu` | Open the Discord score menu. |
-| `/scores upload` | Upload BDO war score screenshots. |
+| Command | Who | Use |
+| --- | --- | --- |
+| `/scores menu` | Member | Open the Discord score menu. |
+| `/scores upload` | Officer | Upload BDO war scores — screenshots or a `.csv` export. |
 
 ## Guild Tracker
 
@@ -135,10 +149,10 @@ Guild Tracker commands are available for EU, NA, and SA.
 /yap
 ```
 
-| Command | Use |
-| --- | --- |
-| `/addyap` | Add a new yap message. |
-| `/yap` | Post a random yap. |
+| Command | Who | Use |
+| --- | --- | --- |
+| `/addyap` | Member | Add a new yap message. |
+| `/yap` | Member | Post a random yap. |
 
 ## Community Commands
 

@@ -1,3 +1,7 @@
+---
+description: How GuildYapper records event attendance and gives officers participation history.
+---
+
 # Attendance
 
 Attendance tracks how members respond to events and gives officers a way to review participation over time.
@@ -37,6 +41,13 @@ Members can view their own attendance. Officers/admins can view member and serve
 /attendance export
 ```
 
+| Command | Use |
+| --- | --- |
+| `/attendance me` | View your own attendance. |
+| `/attendance member` | View your members attendance. |
+| `/attendance overview` | Get an overview of the servers Attendance. |
+| `/attendance export` | Export Attendance to CSV. |
+
 Useful options:
 
 | Option | Used on | Meaning |
@@ -54,7 +65,7 @@ CSV exports can include member-level attendance data. Use the `private` option u
 
 Attendance is shown inside the signup and roster tools:
 
-- Signup detail view: current attendance states and party view.
+- Signup detail view: current attendance states and platoon (in-game party) view.
 - Member detail card: attendance breakdown and recent history.
 - Roster page: attendance summaries across members.
 
@@ -71,6 +82,29 @@ Officers can move members between states such as Can, Waiting, Can't, Vacation, 
 ::: info Attendance And Scores
 Attendance history can connect to score snapshots when event scores are uploaded, making member detail views more useful after wars.
 :::
+
+## No-Show Penalty
+
+**Premium.** When enabled, GuildYapper applies a no-show penalty automatically the moment a member is marked No Show. It subtracts priority per occurrence, and **stacks**: each additional no-show adds another hit on top of the last. The penalty lasts **1 to 60 days** after the missed war, and can DM the affected member with the penalty's value and duration.
+
+The effect of that penalty depends on waitlist mode:
+
+- **Custom Priority mode**: the penalty is applied as negative priority, lowering the member's effective priority for the duration.
+- **Every other mode**: the member is sent to the back of the waitlist instead.
+
+See [Waitlist and Priority](/events/waitlist-and-priority) for how effective priority and waitlist mode work, and [Server Settings](/configuration/server-settings) to configure the penalty amount and duration.
+
+## Attendance Watch Channel
+
+**Premium.** A dedicated channel where GuildYapper posts no-show penalties as they're applied. The same channel also warns about members who have sat at **Can't** or **Undecided** for **7, 14, and 21 days**, so officers can follow up before it becomes a pattern.
+
+Configure the channel in [Server Settings](/configuration/server-settings).
+
+## Availability
+
+Every member has a weekly availability registered on their profile. Without Premium, it is informational only — officers can see it, but nothing acts on it automatically. With Premium active, Node War signups use that availability to automatically mark a member **Can** or **Can't**.
+
+See [Server Settings](/configuration/server-settings) for the auto-signup toggle.
 
 ## Common Issues
 

@@ -11,38 +11,56 @@ const enSidebar = [
     text: "Start Here",
     items: [
       { text: "Introduction", link: "/" },
+      { text: "How GuildYapper Works", link: "/getting-started/how-it-works" },
       { text: "Setup", link: "/getting-started/setup" },
       { text: "Server Types", link: "/getting-started/server-types" },
-      { text: "Website Overview", link: "/website/overview" },
+      { text: "Running Your First Node War", link: "/getting-started/first-node-war" },
     ],
   },
   {
-    text: "Discord Bot",
+    text: "Events",
     items: [
-      { text: "Command Overview", link: "/bot/commands" },
-      { text: "Members and Roster", link: "/bot/members-and-roster" },
-      { text: "Configuration", link: "/bot/configuration" },
+      { text: "Event Types and Signup Profiles", link: "/events/event-types" },
+      { text: "Signups", link: "/features/signups" },
+      { text: "Guild League", link: "/events/guild-league" },
+      { text: "Attendance", link: "/features/attendance" },
+      { text: "Platoons and Function Roles", link: "/events/platoons" },
+      { text: "Waitlist and Priority", link: "/events/waitlist-and-priority" },
+      { text: "Platoon Builder", link: "/events/platoon-builder" },
+    ],
+  },
+  {
+    text: "Scores and VOD",
+    items: [
+      { text: "Scores", link: "/features/scores" },
+      { text: "VOD Reviews", link: "/scores/vod-reviews" },
+    ],
+  },
+  {
+    text: "Guild Tracker",
+    items: [
+      { text: "Guild Tracker", link: "/features/guild-tracker" },
+    ],
+  },
+  {
+    text: "Public Data",
+    items: [
+      { text: "Tierlists", link: "/public/tierlists" },
+      { text: "Guild Wars", link: "/public/guild-wars" },
+      { text: "Arena of Solare", link: "/public/arena-of-solare" },
+      { text: "Class Statistics", link: "/public/class-statistics" },
+      { text: "Streams and Tools", link: "/public/streams-and-tools" },
+    ],
+  },
+  {
+    text: "Configuration",
+    items: [
+      { text: "Server Settings", link: "/configuration/server-settings" },
       { text: "Schedulers", link: "/bot/schedulers" },
     ],
   },
   {
-    text: "Event Management",
-    items: [
-      { text: "Signups", link: "/features/signups" },
-      { text: "Attendance", link: "/features/attendance" },
-      { text: "Parties and Waitlist", link: "/features/parties-and-waitlist" },
-      { text: "Scores", link: "/features/scores" },
-    ],
-  },
-  {
-    text: "Tracking and Public Tools",
-    items: [
-      { text: "Guild Tracker", link: "/features/guild-tracker" },
-      { text: "Tierlists and Stats", link: "/features/tierlists-and-stats" },
-    ],
-  },
-  {
-    text: "Community Tools",
+    text: "Community",
     items: [
       { text: "Yap", link: "/features/yap" },
       { text: "Recruiting, Mercs, Verify", link: "/features/community-tools" },
@@ -50,10 +68,12 @@ const enSidebar = [
     ],
   },
   {
-    text: "Premium and Reference",
+    text: "Reference",
     items: [
-      { text: "Premium", link: "/premium" },
       { text: "Slash Commands", link: "/reference/commands" },
+      { text: "Glossary", link: "/reference/glossary" },
+      { text: "Premium", link: "/premium" },
+      { text: "Members and Roster", link: "/bot/members-and-roster" },
     ],
   },
 ];
@@ -166,7 +186,7 @@ export default defineConfig({
     ],
     footer: {
       message:
-        '<a href="https://discord.gg/x2nKYuu2Z2">Discord</a> · <a href="https://github.com/Guildyapper/GY-Docs">GitHub</a> · <a href="https://guildyapper.com/privacy">Privacy Policy</a> · <a href="https://guildyapper.com/tos">Terms of Service</a> · <a href="https://guildyapper.com/support">Support</a> · <a href="https://ko-fi.com/guildyapper">Donate</a>',
+        '<a href="https://discord.gg/x2nKYuu2Z2">Discord</a> · <a href="https://github.com/Guildyapper/GY-Docs">GitHub</a> · <a href="https://guildyapper.com/privacy">Privacy Policy</a> · <a href="https://guildyapper.com/tos">Terms of Service</a> · <a href="https://discord.gg/x2nKYuu2Z2">Support</a> · <a href="https://ko-fi.com/guildyapper">Donate</a>',
       copyright: "© GuildYapper. Documentation licensed under CC BY 4.0.",
     },
   },

@@ -1,3 +1,7 @@
+---
+description: How guilds upload and review war score sessions from screenshots or Ikusa logs.
+---
+
 # Scores
 
 Scores let your guild collect war results from screenshot uploads or Ikusa logs, then review sessions on Discord and the website.
@@ -10,7 +14,7 @@ Scores let your guild collect war results from screenshot uploads or Ikusa logs,
 
 ## What It Does
 
-- Uploads BDO war score screenshots through Discord or the website.
+- Uploads BDO war scores — screenshots or a `.csv` export — through Discord or the website.
 - Supports multiple screenshot attachments in one Discord upload.
 - Supports Ikusa logger uploads on the website.
 - Links score sessions to signups where possible.
@@ -35,11 +39,39 @@ Members can upload and view personal scores where allowed. Officers manage serve
 /scores upload file:score.png
 ```
 
-You can upload one required screenshot plus additional optional screenshots.
+`/scores upload` accepts screenshots or a `.csv` export — GuildYapper describes it as "Upload bdo war scores (screenshots or .csv export)". You can attach one required file plus additional optional screenshots.
 
 ::: tip Use Clear Screenshots
 BDO OCR depends on image quality. Use clean, readable scoreboard screenshots and avoid heavy compression.
 :::
+
+## Ikusa Or OCR
+
+`/scores menu` presents Ikusa as the recommended score source, with BDO OCR as the alternative.
+
+**Ikusa**
+
+- Alliance-wide scores from one log.
+- Automatic class detection.
+- Guild-level score breakdowns.
+- Automatic merc detection.
+- Needs one member to run the Ikusa logger during the war, then upload the log afterward.
+
+**BDO OCR**
+
+- No third-party app needed — any member can upload a screenshot quickly.
+- Detects structure kills.
+- Accuracy depends on screenshot quality.
+
+Both sources can be used on the same server at once.
+
+::: tip Ikusa By Default, OCR To Fill Gaps
+Recommend Ikusa as your server's default score source, and keep BDO OCR available as a quick fallback for members without a log.
+:::
+
+## Connecting The Ikusa App
+
+The website has a login-completion step for pairing an external app — this is how the Ikusa logger links to a GuildYapper account. It comes before your first Ikusa upload.
 
 ## BDO OCR Scores
 
@@ -55,6 +87,20 @@ Ikusa uploads use log data from the Ikusa logger. They can provide alliance-wide
 GuildYapper keeps BDO OCR and Ikusa as separate score sources. The website lets you switch between them where both are available.
 :::
 
+## Personal Stats
+
+Personal stats surface through `/member view` ("View user's gear") and the personal pages on the website.
+
+## Server Score Stats
+
+The [Scores Management](https://guildyapper.com/management/scores) page has **Stats**, **IKUSA**, and **BDO OCR** tabs, with filters by source, class, and period.
+
+The Stats tab includes:
+
+- A historical record card with cumulative K/D across all wars.
+- Highlights for top killer, best average K/D, longest streak, largest killfeed, and war MVP.
+- A K/D-over-wars chart.
+
 ## Website Score Pages
 
 | Page | Link | Use it for |
@@ -62,6 +108,8 @@ GuildYapper keeps BDO OCR and Ikusa as separate score sources. The website lets 
 | Scores Management | [Open](https://guildyapper.com/management/scores) | Officer upload, review, and session management. |
 | Personal Scores | [Open](https://guildyapper.com/scores) | Member personal uploads, bookmarks, and stats. |
 | Class Performance | [Open](https://guildyapper.com/class-performance) | Comparing class-level performance from score data. |
+
+Each score session has its own link, keyed by source and public identifier, so it can be shared outside Discord. A VOD can be attached to a session — see [VOD Reviews](/scores/vod-reviews).
 
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>

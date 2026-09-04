@@ -1,3 +1,7 @@
+---
+description: Contributor notes on where to place documentation screenshots and how to reference them.
+---
+
 # Screenshot Assets
 
 Place documentation screenshots in this folder. Anything here is served from `/screenshots/...` in VitePress.

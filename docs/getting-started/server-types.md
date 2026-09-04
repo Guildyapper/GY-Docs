@@ -1,3 +1,7 @@
+---
+description: The server types GuildYapper supports and how each one changes available commands.
+---
+
 # Server Types
 
 GuildYapper changes its available commands based on the server type selected during `/setup`. This keeps a guild Discord from being cluttered with community-only tools, and keeps a trial Discord focused on trials.
@@ -16,7 +20,7 @@ Use this for a guild or alliance Discord that runs events and manages a member r
 - Node War, GvG, Guild League, and custom signups.
 - Attendance and signup history.
 - Roster and member profile management.
-- Node War parties, waitlist behavior, and class priority.
+- Node War platoons (in-game parties), waitlist behavior, and class priority.
 - Guild Tracker lookup and updates in supported regions.
 - Scores and score uploads.
 - Yap.
@@ -24,7 +28,7 @@ Use this for a guild or alliance Discord that runs events and manages a member r
 
 ### Who Can Use It
 
-Members with the configured member role can use regular member tools. Officers/admins with the configured officer role can manage signups, server settings, parties, rosters, schedules, and other admin tools.
+Members with the configured member role can use regular member tools. Officers/admins with the configured officer role can manage signups, server settings, platoons, rosters, schedules, and other admin tools.
 
 ### Best For
 
@@ -94,7 +98,7 @@ Trial Server setup creates roles, channels, categories, permissions, and an invi
 
 ## Changing Server Type Later
 
-Use `/configure server` to view and change the server type. Changing into Guild / Alliance mode creates default class configs and Node War parties if they are missing.
+Use `/configure server` to view and change the server type. Changing into Guild / Alliance mode creates default class configs and Node War platoons if they are missing.
 
 ::: warning Be Careful With Server Type Changes
 Changing server type affects which commands GuildYapper syncs to Discord. If users say commands disappeared, check the current server type first.
