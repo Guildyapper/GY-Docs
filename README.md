@@ -37,3 +37,7 @@ docs/public/screenshots/
 ```
 
 Use the folders already created there to keep images grouped by topic.
+
+## Contributing
+
+Want to help document GuildYapper? See [CONTRIBUTING.md](./CONTRIBUTING.md) for page structure, vocabulary, screenshots, and the pre-PR build check.
