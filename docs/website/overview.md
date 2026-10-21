@@ -12,7 +12,7 @@ The website is the larger dashboard side of GuildYapper. Discord is best for qui
 </div>
 
 ::: info Login
-Pages that show your server, roster, profile, or management data require Discord login. Public pages such as tierlists, Guild Tracker, class stats, streams, and guild wars can be browsed without managing a server.
+Pages that show your server, roster, profile, or management data require Discord login, and so does Guild Tracker. Tierlists, class statistics, streams, Guild Wars, Arena of Solare, and Guild League pages are public and can be browsed without an account.
 :::
 
 ## Main Website Areas

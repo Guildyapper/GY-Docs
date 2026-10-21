@@ -24,7 +24,8 @@ Guild / Alliance, Community, and Trial Server mode do not share the exact same c
 
 ```text
 /configure server
-/configure nwparty
+/configure parties
+/configure profiles
 /configure class
 /configure member member:@Member
 /configure scheduler
@@ -34,7 +35,8 @@ Guild / Alliance, Community, and Trial Server mode do not share the exact same c
 | Command | Use |
 | --- | --- |
 | `/configure server` | Server type, region, roles, channels, Yap, tracker, guild names, and Node War behavior. |
-| `/configure nwparty` | Node War parties, limits, priority, overflow, targets, and assignments. |
+| `/configure parties` | Platoons (in-game parties) and function roles: Discord role, priority, limit, reduction, class exclusion, size, overflow, and target. |
+| `/configure profiles` | Signup profiles per event type — which platoons and function roles each event layout offers. |
 | `/configure class` | Class/spec priorities and class type priority limits. |
 | `/configure member` | Individual member configuration. |
 | `/configure scheduler` | Reminder and automation schedules. |

@@ -12,7 +12,7 @@ O site é o lado de painel maior do GuildYapper. O Discord é melhor para açõe
 </div>
 
 ::: info Login
-As páginas que mostram seu servidor, roster, perfil ou dados de gerenciamento requerem login pelo Discord. Páginas públicas como tierlists, Guild Tracker, estatísticas de classes, streams e guerras de guildas podem ser navegadas sem gerenciar um servidor.
+Páginas que mostram seu servidor, roster, perfil ou dados de gerenciamento exigem login com Discord — e o Guild Tracker também. Tierlists, estatísticas de classe, streams, Guild Wars, Arena of Solare e as páginas de Guild League são públicas e podem ser navegadas sem conta.
 :::
 
 ## Principais Áreas do Site
