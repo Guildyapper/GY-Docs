@@ -104,7 +104,7 @@ Leia mais em [Tipos de Servidor](/pt/getting-started/server-types).
 ```
 
 ::: tip Grupos Padrão
-A configuração de Guild / Aliança cria grupos iniciais de Node War como Main, Defense e Flex. Você pode ajustá-los depois com `/configure nwparty`.
+A configuração de Guild / Aliança cria grupos iniciais de Node War como Main, Defense e Flex. Você pode ajustá-los depois com `/configure parties`.
 :::
 
 <div class="screenshot-slot">
@@ -119,7 +119,8 @@ As próximas ações úteis são:
 
 ```text
 /configure server
-/configure nwparty
+/configure parties
+/configure profiles
 /configure class
 /member missing
 /signup nodewar

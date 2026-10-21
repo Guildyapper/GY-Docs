@@ -14,6 +14,7 @@ const enSidebar = [
       { text: "Setup", link: "/getting-started/setup" },
       { text: "Server Types", link: "/getting-started/server-types" },
       { text: "Website Overview", link: "/website/overview" },
+      { text: "Server Settings (Website)", link: "/website/server-settings" },
     ],
   },
   {
@@ -29,10 +30,12 @@ const enSidebar = [
     text: "Event Management",
     items: [
       { text: "Signups", link: "/features/signups" },
+      { text: "Signup Profiles", link: "/features/signup-profiles" },
       { text: "Attendance", link: "/features/attendance" },
       { text: "Parties and Waitlist", link: "/features/parties-and-waitlist" },
       { text: "Draft Signups", link: "/features/draft" },
       { text: "Scores", link: "/features/scores" },
+      { text: "VOD Reviews", link: "/features/vod-reviews" },
     ],
   },
   {

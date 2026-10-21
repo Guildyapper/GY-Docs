@@ -24,7 +24,8 @@ Os modos Guild / Aliança, Comunidade e Trial Server não compartilham exatament
 
 ```text
 /configure server
-/configure nwparty
+/configure parties
+/configure profiles
 /configure class
 /configure member member:@Membro
 /configure scheduler
@@ -34,7 +35,8 @@ Os modos Guild / Aliança, Comunidade e Trial Server não compartilham exatament
 | Comando | Uso |
 | --- | --- |
 | `/configure server` | Tipo de servidor, região, cargos, canais, Yap, tracker, nomes de guildas e comportamento do Node War. |
-| `/configure nwparty` | Grupos de Node War, limites, prioridade, overflow, alvos e atribuições. |
+| `/configure parties` | Platoons (grupos do jogo) e cargos de função: cargo do Discord, prioridade, limite, redução, exclusão de classe, tamanho, overflow e alvo. |
+| `/configure profiles` | Perfis de inscrição por tipo de evento — quais platoons e cargos de função cada layout de evento oferece. |
 | `/configure class` | Prioridades de classe/especialização e limites de prioridade de tipo de classe. |
 | `/configure member` | Configuração individual de membro. |
 | `/configure scheduler` | Agendas de lembrete e automação. |

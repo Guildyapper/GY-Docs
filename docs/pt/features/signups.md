@@ -28,7 +28,7 @@ Os membros geralmente podem responder às inscrições. Oficiais/admins criam e 
 - Cargo de oficial/admin configurado.
 - Nomes de guildas configurados para registro de guilda/aliança.
 - Canal de voz opcional do Node War para verificações de ausentes no canal de voz.
-- Grupos opcionais configurados através de `/configure nwparty`.
+- Grupos opcionais configurados através de `/configure parties`.
 
 ## Criar uma Inscrição de Node War
 

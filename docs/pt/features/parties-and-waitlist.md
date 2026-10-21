@@ -3,7 +3,7 @@
 Os grupos e listas de espera decidem como uma inscrição completa se torna um plano real. O GuildYapper pode manter as pessoas em grupos configurados, dividir grupos grandes, respeitar prioridades e mover membros da lista de espera para vagas abertas.
 
 ```text
-/configure nwparty
+/configure parties
 /configure class
 /configure member member:@Membro
 /configure server
@@ -26,13 +26,13 @@ Oficiais/admins configuram grupos e comportamento da lista de espera. Os membros
 
 - Tipo de servidor Guild / Aliança.
 - Cargo de oficial/admin.
-- Grupos de Node War configurados através de `/configure nwparty`.
+- Grupos de Node War configurados através de `/configure parties`.
 - Prioridades de classe opcionais através de `/configure class`.
 - Substituições de membros opcionais através de `/configure member`.
 
 <div class="screenshot-slot">
   <strong>Espaço reservado para captura de tela</strong>
-  Adicione uma captura de tela do `/configure nwparty`.
+  Adicione uma captura de tela do `/configure parties`.
   Caminho sugerido: `/screenshots/parties/nwparty-config.webp`
 </div>
 

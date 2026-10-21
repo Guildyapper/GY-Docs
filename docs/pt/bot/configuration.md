@@ -4,7 +4,8 @@ A maioria das configurações do servidor fica em `/configure`. Use após `/setu
 
 ```text
 /configure server
-/configure nwparty
+/configure parties
+/configure profiles
 /configure class
 /configure member member:@Membro
 /configure scheduler

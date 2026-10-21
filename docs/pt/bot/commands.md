@@ -40,7 +40,8 @@ Oficiais/admins usam esses para configurar e operar o servidor.
 
 ```text
 /configure server
-/configure nwparty
+/configure parties
+/configure profiles
 /configure class
 /configure member member:@Membro
 /configure scheduler
