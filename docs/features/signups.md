@@ -182,6 +182,13 @@ Common management actions include:
 
 Open [Website Signups](https://guildyapper.com/management/signups) for a bigger event view. Officers can browse signups, open one event, inspect participants, update attendance, move members, and work with platoon assignments.
 
+<ScreenshotFigure
+  src="/screenshots/signups/website-signups.webp"
+  alt="Website Signups page with event cards and filters"
+  caption="Every event as a card, with attendance, profile, and a shortcut to the Platoon Builder."
+  maxWidth="900px"
+/>
+
 The event detail view has keyboard shortcuts: `/` focuses search, `a` marks the selected member Can, `w` marks them Waiting, and `Esc` clears the selection. Three switches control the view: announcing the change and DMing participants (Premium) fire on every attendance change, and a **priority badges** toggle shows each member's priority next to them — see [Waitlist and Priority](/events/waitlist-and-priority) for how that priority is calculated.
 
 Every event also has a **VODs** button. See [VOD Reviews](/features/vod-reviews).
