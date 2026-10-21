@@ -97,8 +97,41 @@ Custom and GvG signups can use a custom party size. If no custom size is set, Gu
 | Waiting | The member wants to attend but is waitlisted. |
 | Undecided | The member has not made a clear choice yet. |
 | Can't | The member cannot attend. |
-| Vacation | The member is away. |
+| Vacation | The member is away. Set automatically from a registered vacation. |
 | No Show | Officer-marked state for missed attendance. |
+
+## Vacations
+
+Members register time off themselves. Signups whose date falls inside a vacation
+mark the member **Vacation** instead of counting as a no-show — including
+signups that were already open when the vacation was registered.
+
+- **Several at once.** A member can plan more than one vacation ahead of time;
+  registering a second one does not replace the first.
+- **Cancelling.** Cancel a vacation and the signups still ahead of it go back to
+  **Undecided**. Nights already missed stay excused, so coming back early never
+  rewrites attendance that already happened.
+- **Reason.** Optional. Some guilds ask for one every time, others never do.
+- **Dates.** Whole days. The first and last day are both covered in full, and a
+  single day is fine — pick the same date twice.
+
+### In Discord
+
+The **Vacation** button on a signup, and **Set Vacation** in
+`/member update`, both open the same panel: what is registered, an **Add
+vacation** button and a dropdown to cancel one. Officers reach the same panel
+for any member through `/configure member`.
+
+Each registration and cancellation is posted to the server's vacation channel
+(see [Bot configuration](/bot/configuration)).
+
+### On the website
+
+**Profile → Servers → Availability & vacation** for your own, and the member's
+row in the **Roster** for officers. The roster view additionally shows the full
+history: past and cancelled vacations, the reason given, and who entered each
+one. Vacations imported from before this history existed are labelled
+*Imported* and have no reason recorded.
 
 ## Managing A Signup
 

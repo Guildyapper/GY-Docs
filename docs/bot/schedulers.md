@@ -30,10 +30,10 @@ Ping undecided members and ping missing registrations are available without Prem
 
 | Scheduler | Free/Premium | What it does |
 | --- | --- | --- |
-| Ping undecided members | Free | Pings members still marked undecided on signups at up to three custom hour offsets before Node War time. Premium can also enable delayed DMs for undecided members. |
+| Ping undecided members | Free | Pings members still marked undecided on signups at up to three custom times before Node War time (for example 6h or 2h30m). Premium can also enable delayed DMs for undecided members. |
 | Ping missing Bot registrations | Free | Runs `/member missing` in a selected channel on Sundays before Node War time. |
 | Automatically post Node War signups | Premium | Posts signups on selected days and channels with default caps and lead time. |
-| Close Node War signups | Premium | Closes signups a set number of hours after Node War time, with options for channel cleanup and default result. |
+| Close Node War signups | Premium | Closes signups a set time after Node War time (for example 2h or 45m), with options for channel cleanup and default result. |
 | Nodewar announcement | Premium | Sends a pre-war reminder in signup channels, can mention members marked as Can, and can include attendance/class context. |
 | Check up on inactive members | Premium | Checks members who have not attended for a configured number of days, can DM members, and can ping officers in the log channel. |
 
@@ -51,8 +51,9 @@ The automatic signup scheduler lets you pick:
 2. Node War days.
 3. Default attendance caps.
 4. Optional visible caps.
-5. Lead time before Node War.
-6. Posting mode: per day or all at once.
+5. When to post: a time before Node War (for example 21h50m), or on the website the clock time it lands on (22:10 the evening before). Both describe the same setting.
+6. A signup profile per day, or Auto (Siege on Saturdays, otherwise your default profile). The bot sets one profile for every day; per-day profiles are set on the website.
+7. Posting mode: per day or all at once.
 
 ::: tip Visible Caps
 Visible caps let the signup show a different public cap than the internal max attendance. Use this when officers want a cleaner number shown to members while still allowing controlled overflow.
@@ -62,7 +63,7 @@ Visible caps let the signup show a different public cap than the internal max at
 
 The close scheduler can:
 
-- Close the signup after a configured number of hours.
+- Close the signup a configured time after Node War, in hours and minutes.
 - Clear the channel.
 - Delete the signup message.
 - Set a default result such as Won, Lost, Draw, or Undefined.

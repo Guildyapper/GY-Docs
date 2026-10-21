@@ -31,6 +31,7 @@ const enSidebar = [
       { text: "Signups", link: "/features/signups" },
       { text: "Attendance", link: "/features/attendance" },
       { text: "Parties and Waitlist", link: "/features/parties-and-waitlist" },
+      { text: "Draft Signups", link: "/features/draft" },
       { text: "Scores", link: "/features/scores" },
     ],
   },

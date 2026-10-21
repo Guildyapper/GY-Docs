@@ -38,6 +38,11 @@ The server configuration screen has several tabs.
 | Guild | Guild names, vacation channel, profile update channel, rename mode. |
 | Nodewar | Node War voice channel, signup sort mode, waitlist mode, visible signup values, waitlist fair mode, move notifications, party swapping. |
 
+The **vacation channel** is where every registration and cancellation is
+announced, whether it came from Discord or the website. Without it vacations
+still work — they simply are not announced. See
+[Vacations](/features/signups#vacations).
+
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>
   Add a screenshot of `/configure server`.
