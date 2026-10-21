@@ -54,4 +54,4 @@ A class ranking rounds out the page, ranked by a selectable metric.
 
 ## Related Pages
 
-Class stats are war-derived, not live. For live PvP streams, see [Streams and Tools](/public/streams-and-tools).
+Class stats are war-derived, not live. For live PvP streams, see [Streams and Tools](/public-data/streams-and-tools).

@@ -23,17 +23,18 @@ The page header shows how many streams are currently live and how many are from 
 
 [Tools](https://guildyapper.com/tools) is a whole section of the site not covered elsewhere in this documentation. It gathers:
 
-- **Combat Toolkit** — links out to Ikusa and Garmoth.
+- The **GuildYapper Ikusa Logger** — the combat logger behind Ikusa score uploads, downloadable from [guildyapper.com/tools/ikusa-logger](https://guildyapper.com/tools/ikusa-logger). It supersedes the original open-source Ikusa Logger Classic, which is still linked.
+- The **War Map** at [guildyapper.com/tools/map](https://guildyapper.com/tools/map), for drawing on the node war map.
 - A **PvP damage calculator**.
 - A **gear planner**.
-- **Fort location maps** for Balenos and Serendia.
+- **Fort location maps** for Balenos, Serendia, and Ulukita.
 - A collection of community-creator **video guides**.
 - A **resource library** — skill builders, PvP guides, a client performance guide, a utility hub, an AOS ladder, the community's open API, and a ping monitor.
 - **Regional communities**.
 - A directory of **class Discords**.
 
 ::: info External Resources
-Tools is a curated collection of external resources maintained by third parties, not GuildYapper features.
+Apart from the Ikusa Logger and the War Map, Tools is a curated collection of external resources maintained by third parties, not GuildYapper features.
 :::
 
 <div class="screenshot-slot">

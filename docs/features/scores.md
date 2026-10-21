@@ -109,7 +109,7 @@ The Stats tab includes:
 | Personal Scores | [Open](https://guildyapper.com/scores) | Member personal uploads, bookmarks, and stats. |
 | Class Performance | [Open](https://guildyapper.com/class-performance) | Comparing class-level performance from score data. |
 
-Each score session has its own link, keyed by source and public identifier, so it can be shared outside Discord. A VOD can be attached to a session — see [VOD Reviews](/scores/vod-reviews).
+Each score session has its own link, keyed by source and public identifier, so it can be shared outside Discord. A VOD can be attached to a session — see [VOD Reviews](/features/vod-reviews).
 
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>

@@ -64,7 +64,7 @@ If an officer forces a member into Main 2 for one event, GuildYapper treats that
 
 ## Function Roles
 
-Function roles are **signup labels, not Discord roles**. Each one has an emoji, an optional priority, a limit, and class exclusion. Out of the box, GuildYapper ships Elephant Rider, Flag, Shotcaller, and BSR Target. Function roles are assigned globally as a member's default and can be overridden per profile.
+Function roles are **signup labels, not Discord roles**. Each one has an emoji, an optional priority, a limit, and class exclusion. Out of the box, GuildYapper ships Elephant Rider, Shotcaller, and BSR Target. Function roles are assigned globally as a member's default and can be overridden per profile.
 
 Function roles are also created and edited through `/configure parties`, on the Roles tab on the website.
 

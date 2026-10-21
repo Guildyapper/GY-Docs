@@ -92,7 +92,7 @@ Use `/member view member:@Member` ("View user's gear") to look up one member's g
 /stats classes
 ```
 
-`/stats classes` shows your own server's class distribution — how your registered members break down by class. This is separate from the public, site-wide [Class Statistics](/public/class-statistics), which aggregates popularity and performance across GuildYapper rather than one server's roster.
+`/stats classes` shows your own server's class distribution — how your registered members break down by class. This is separate from the public, site-wide [Class Statistics](/public-data/class-statistics), which aggregates popularity and performance across GuildYapper rather than one server's roster.
 
 Useful for officers checking comp gaps or class stacking before adjusting class priority in `/configure class`.
 

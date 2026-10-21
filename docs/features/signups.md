@@ -90,7 +90,7 @@ Use custom signups for practice, training, meetings, or other events that still 
 Custom and GvG signups can use a custom platoon size. If no custom size is set, GuildYapper uses normal signup behavior.
 :::
 
-Every signup uses a signup profile, which decides the platoons (in-game parties) and function roles it offers. See [Event Types and Signup Profiles](/events/event-types) for the profiles, [Platoons and Function Roles](/events/platoons) for how a platoon is built, [Waitlist and Priority](/events/waitlist-and-priority) for how priority decides who gets a spot, and the [Platoon Builder](/events/platoon-builder) for assembling one event's composition on the website.
+Every signup uses a signup profile, which decides the platoons (in-game parties) and function roles it offers. See [Event Types and Signup Profiles](/features/signup-profiles) for the profiles, [Platoons and Function Roles](/events/platoons) for how a platoon is built, [Waitlist and Priority](/events/waitlist-and-priority) for how priority decides who gets a spot, and the [Platoon Builder](/events/platoon-builder) for assembling one event's composition on the website.
 
 ## Attendance States
 
@@ -126,7 +126,7 @@ vacation** button and a dropdown to cancel one. Officers reach the same panel
 for any member through `/configure member`.
 
 Each registration and cancellation is posted to the server's vacation channel
-(see [Bot configuration](/bot/configuration)).
+(see [Bot configuration](/configuration/server-settings)).
 
 ### On the website
 
@@ -176,7 +176,7 @@ Open [Website Signups](https://guildyapper.com/management/signups) for a bigger 
 
 The event detail view has keyboard shortcuts: `/` focuses search, `a` marks the selected member Can, `w` marks them Waiting, and `Esc` clears the selection. Three switches control the view: announcing the change and DMing participants (Premium) fire on every attendance change, and a **priority badges** toggle shows each member's priority next to them — see [Waitlist and Priority](/events/waitlist-and-priority) for how that priority is calculated.
 
-Every event also has a **VODs** button. See [VOD Reviews](/scores/vod-reviews).
+Every event also has a **VODs** button. See [VOD Reviews](/features/vod-reviews).
 
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>

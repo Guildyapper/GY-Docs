@@ -1,4 +1,8 @@
-# Signup Profiles
+---
+description: The signup profiles that decide which platoons and function roles each kind of event offers.
+---
+
+# Event Types And Signup Profiles
 
 Signup profiles are reusable signup layouts for different event types: Construction Node War, Occupation Node War, Siege, Blue Battlefield, War of the Roses, or custom events. A profile decides which platoons and function roles are available on a signup, and it can give a member a different assignment than their normal roster default.
 
@@ -10,7 +14,8 @@ Signup profiles are reusable signup layouts for different event types: Construct
 
 <div class="quick-links">
   <a href="https://guildyapper.com/management/signup-profiles">Website Signup Profiles</a>
-  <a href="/features/parties-and-waitlist">Parties and Waitlist</a>
+  <a href="/events/platoons">Platoons and Function Roles</a>
+  <a href="/events/waitlist-and-priority">Waitlist and Priority</a>
   <a href="/bot/members-and-roster">Members and Roster</a>
 </div>
 
@@ -48,13 +53,25 @@ The website Signup Profiles page is officer-only. Non-officers can see the page 
 
 Every server starts with five system profiles:
 
-- Construction Node War
-- Occupation Node War
-- Siege
-- Blue Battlefield
-- War of the Roses
+| Profile | Use it for |
+| --- | --- |
+| Construction Nodewar | Construction node wars. Default profile out of the box. |
+| Occupation Nodewar | Occupation node wars. |
+| Siege | Siege wars. |
+| Blue Battlefield | Blue Battlefield events. |
+| War of the Roses | War of the Roses events. |
 
 System profiles can be renamed, disabled, customized, and set as default, but they cannot be deleted. Custom profiles require GuildYapper Premium.
+
+::: info Activation Does Not Affect Existing Signups
+Activating or deactivating a profile only changes what is offered for new signups. It does not affect signups that already exist.
+:::
+
+<div class="screenshot-slot">
+  <strong>Screenshot placeholder</strong>
+  Add a screenshot of the Signup Profiles page, Profiles tab.
+  Suggested path: `/screenshots/parties/signup-profiles.webp`
+</div>
 
 ## Function Roles
 

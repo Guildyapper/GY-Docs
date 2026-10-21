@@ -18,11 +18,11 @@ A guild enters the board when an officer creates a ranked GvG signup with `/sign
 
 ## Seasons
 
-The board runs by season. At the time of writing, the site shows the **Preseason** label. The page itself includes a "How ranking works" explainer covering the scoring in more detail.
+The board runs by season, and the current season is shown on the page. The page itself includes a "How ranking works" explainer covering the scoring in more detail.
 
 ## Guild Rankings
 
-The season standings show each guild's points (observed in the 520–580 range), along with a win/loss record. Expand a guild to see its recent matchups as a sequence of W and L results.
+The season standings show each guild's points, along with a win/loss record. Expand a guild to see its recent matchups as a sequence of W and L results.
 
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>
@@ -32,10 +32,10 @@ The season standings show each guild's points (observed in the 520–580 range),
 
 ## Match History
 
-Match History lists completed wars with date, time, the two guilds, and the final score. A match can have a **VOD** attached and a roster breakdown. See [VOD Reviews](/scores/vod-reviews) for more on reviewing attached VODs.
+Match History lists completed wars with date, time, the two guilds, and the final score. A match can have a **VOD** attached and a roster breakdown. See [VOD Reviews](/features/vod-reviews) for more on reviewing attached VODs.
 
 ::: tip See Also
-Guild Wars and [Arena of Solare](/public/arena-of-solare) are both competitive PvP pages — Guild Wars tracks ranked GvG, while Arena of Solare covers open-world PvP matches and rankings.
+Guild Wars and [Arena of Solare](/public-data/arena-of-solare) are both competitive PvP pages — Guild Wars tracks ranked GvG, while Arena of Solare covers open-world PvP matches and rankings.
 :::
 
 ## Common Issues

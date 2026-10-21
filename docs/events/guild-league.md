@@ -26,7 +26,7 @@ Officers create the signup. Any member with the required role takes a timeslot. 
 | `date` | Yes | Format `dd.MM.yyyy`. |
 | `start-time` | Yes | When the queue starts. EU uses Europe/Berlin, NA uses America/New_York. |
 | `end-time` | Yes | When the queue ends. Each end time tells you how many slots it buys. |
-| `role` | No | Role to ping, and to restrict the signup to when that toggle is on. |
+| `role` | Yes | Role to ping, and to restrict the signup to when that toggle is on. |
 | `vc` | No | Voice channel checked by the "missing in voice" action. Leave it out to count any voice channel on the server. |
 | `interval` | No | Minutes between time slots. Defaults to 20, the game's match cycle. |
 | `nodewar-slots` | No | Set `True` to keep slots inside the node war window, which the game normally blocks. |
@@ -70,4 +70,4 @@ Standings show the in-game top 100, captured by players through Ikusa and kept a
 Standings depend on players submitting Ikusa captures. This is not an official feed from the game, just a history built from what players have uploaded.
 :::
 
-See [Scores](/features/scores) for war score sessions, and [VOD Reviews](/scores/vod-reviews) for reviewing submitted match VODs.
+See [Scores](/features/scores) for war score sessions, and [VOD Reviews](/features/vod-reviews) for reviewing submitted match VODs.

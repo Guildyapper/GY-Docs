@@ -1,6 +1,26 @@
+---
+description: Upload YouTube or Twitch recordings and turn them into a shared review workspace with timestamp notes and Ikusa context.
+---
+
 # VOD Reviews
 
 Open **Review VOD** on a submitted recording to watch it and leave timestamped feedback. YouTube videos and Twitch VODs are supported. The recording stays on its original platform; GuildYapper does not upload or host the video.
+
+<div class="quick-links">
+  <a href="https://guildyapper.com/vod/submit">Submit a VOD</a>
+</div>
+
+## Uploading
+
+Uploading a recording and playing it back are free for everyone. On the upload page, paste the YouTube or Twitch link, add an optional note, and choose where it goes:
+
+| Destination | Use it for |
+| --- | --- |
+| A war day | Ties the recording to one signup, so it appears on that war's score pages. This is the default. |
+| Server only | A recording the whole server should see, without a war. |
+| My profile | Practice, GvG, or anything without an event. Stays on your profile only. |
+
+You can start an upload from the [upload page](https://guildyapper.com/vod/submit), the **VODs** button on an event in the signups management view, or **Submit VOD** on Guild League and Guild Wars matches.
 
 ## Premium and public links
 

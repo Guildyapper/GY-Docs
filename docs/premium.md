@@ -16,10 +16,10 @@ Premium unlocks advanced automation and customization for a GuildYapper server w
 | --- | --- | --- |
 | Free | — | Signups, attendance, roster, scores, and every public tracker, plus 5 signup profiles and 5 function roles. |
 | Premium | US$7.99/month | Everything listed in [What Premium Unlocks](#what-premium-unlocks) below. |
-| VIP | US$19.99/month | Exactly the same feature set as Premium. |
+| VIP | US$24.99/month | The same feature set as Premium, plus priority support and priority for feature requests. |
 
 ::: info VIP Does Not Unlock More Than Premium
-VIP costs more than Premium but unlocks **exactly the same features**. It exists for guilds that want to support GuildYapper's development beyond the base Premium price, not for guilds that want extra functionality.
+VIP unlocks **exactly the same features** as Premium. On top of that it adds priority support in the support Discord and priority for bot and website feature requests. It exists for guilds that want to back GuildYapper's development at a higher level.
 :::
 
 Prices are set by Discord's store, billed in US dollars as a recurring subscription, and are managed and cancelled from Discord's own user subscription settings.
@@ -32,11 +32,11 @@ Prices are set by Discord's store, billed in US dollars as a recurring subscript
 
 ## What Premium Unlocks
 
-- **VOD Reviews** — timestamped notes and Ikusa context on top of any uploaded recording. See [VOD Reviews](/scores/vod-reviews).
+- **VOD Reviews** — timestamped notes and Ikusa context on top of any uploaded recording. See [VOD Reviews](/features/vod-reviews).
 - **Scheduler automation** — automatic signup posting and closing, pre-war announcements, and inactive-member checks. See [Schedulers](/bot/schedulers).
 - **Attendance safeguards** — no-show penalties and an attendance watch channel for stale responses. See [Server Settings](/configuration/server-settings).
 - **Smart signup flow** — auto-signup from weekly availability, and waitlist move DMs. See [Server Settings](/configuration/server-settings) and [Waitlist and Priority](/events/waitlist-and-priority).
-- **Custom signup profiles and unlimited function roles** — beyond the free plan's 5 and 5. See [Event Types and Signup Profiles](/events/event-types) and [Platoons and Function Roles](/events/platoons).
+- **Custom signup profiles and unlimited function roles** — beyond the free plan's 5 and 5. See [Event Types and Signup Profiles](/features/signup-profiles) and [Platoons and Function Roles](/events/platoons).
 - **Member markers, a custom bot profile, and officer DMs** — covered below in [Included Features](#included-features).
 
 ## Who Can Use It

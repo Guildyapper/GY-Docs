@@ -90,4 +90,4 @@ A class's tier in Capped Nodewar can differ from its tier in AOS or GvG. Make su
 
 ## Related Pages
 
-Guild Wars and Class Statistics are separate public pages. See [Guild Wars](/public/guild-wars) for ranked GvG results, and [Class Statistics](/public/class-statistics) for class popularity and performance data.
+Guild Wars and Class Statistics are separate public pages. See [Guild Wars](/public-data/guild-wars) for ranked GvG results, and [Class Statistics](/public-data/class-statistics) for class popularity and performance data.

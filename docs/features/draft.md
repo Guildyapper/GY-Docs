@@ -1,3 +1,7 @@
+---
+description: Draft signups let everyone sign up and fill the roster by priority at a set time instead of first come, first served.
+---
+
 # Draft Signups
 
 A draft lets everyone sign up and fills the roster **by priority at a set time**, instead of by who clicked first. It replaces lowering the spots of a signup to keep early clickers out and raising them again before node war.
@@ -5,7 +9,7 @@ A draft lets everyone sign up and fills the roster **by priority at a set time**
 <div class="quick-links">
   <a href="https://guildyapper.com/management/settings?tab=waitlist#signup-fill">Set up a draft</a>
   <a href="/features/signup-profiles">Signup Profiles</a>
-  <a href="/features/parties-and-waitlist">Parties and Waitlist</a>
+  <a href="/events/platoons">Parties and Waitlist</a>
 </div>
 
 ## How It Works
@@ -15,7 +19,7 @@ A draft lets everyone sign up and fills the roster **by priority at a set time**
 3. At the **draft time** (by default 3 hours before node war) the roster is filled in one go. Members are **Confirmed** or on the **waitlist**, and the bot posts the result in the signup channel.
 4. After the draft it works like any signup: when someone drops out, the best member on the waitlist moves up.
 
-The draft uses your waitlist order (priority, gear score, signup time or random) and all your [limits](/features/parties-and-waitlist): "at most", "prefer at most", "at least" and platoons with **Fill first**.
+The draft uses your waitlist order (priority, gear score, signup time or random) and all your [limits](/events/platoons): "at most", "prefer at most", "at least" and platoons with **Fill first**.
 
 ## Setting It Up
 
