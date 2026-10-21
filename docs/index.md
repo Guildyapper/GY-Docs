@@ -1,5 +1,6 @@
 ---
 layout: home
+description: The GuildYapper documentation home, with quick links into setup, events, tracking, and community features.
 
 hero:
   name: GuildYapper
@@ -18,7 +19,7 @@ hero:
 
 features:
   - title: Event management
-    details: Create Node War, GvG, Guild League, and custom signups with attendance, waitlists, party splits, charts, and score links.
+    details: Create Node War, GvG, Guild League, and custom signups with attendance, waitlists, platoon (in-game party) splits, charts, and score links.
   - title: Member and roster tools
     details: Let members update their class, gear, guild, Garmoth link, and vacation state while officers manage roster details.
   - title: Tracking and insights
@@ -37,7 +38,7 @@ GuildYapper combines a Discord bot with the [GuildYapper website](https://guildy
 />
 
 ::: info Best First Read
-If GuildYapper is new in your server, [invite the bot](https://discord.com/oauth2/authorize?client_id=1238194592982110248), then start with [Setup](/getting-started/setup). If it is already running, use the cards below to jump into the feature you need.
+New here? Start with [How GuildYapper Works](/getting-started/how-it-works). If GuildYapper is new in your server, [invite the bot](https://discord.com/oauth2/authorize?client_id=1238194592982110248), then start with [Setup](/getting-started/setup). If it is already running, use the cards below to jump into the feature you need.
 :::
 
 <div class="doc-grid">
@@ -45,9 +46,9 @@ If GuildYapper is new in your server, [invite the bot](https://discord.com/oauth
     <strong>Signups</strong>
     <span>Create events, manage attendance, move waitlisted members, and close events.</span>
   </a>
-  <a class="doc-card" href="/features/parties-and-waitlist">
-    <strong>Parties and Waitlist</strong>
-    <span>Understand party assignment, split behavior, priority, limits, and fair mode.</span>
+  <a class="doc-card" href="/events/waitlist-and-priority">
+    <strong>Waitlist and Priority</strong>
+    <span>Understand the priority stack, dynamic class limits, waitlist modes, and fair mode.</span>
   </a>
   <a class="doc-card" href="/bot/members-and-roster">
     <strong>Members and Roster</strong>
@@ -86,8 +87,8 @@ If GuildYapper is new in your server, [invite the bot](https://discord.com/oauth
 | --- | --- |
 | Setup | Guided Discord setup with server type, region, roles, channels, Guild Tracker settings, and Trial Server automation. |
 | Events | Node War, GvG, Guild League, and custom signups with attendance states and officer actions. |
-| Parties | Configurable parties, party sizes, priority, waitlist rules, split parties, and temporary event-only moves. |
-| Roster | Member profiles, gear, class/spec, guild, role-like labels, party assignments, priorities, attendance history, and score snapshots. |
+| Platoons | Configurable platoons, platoon sizes, priority, waitlist rules, split platoons, and temporary event-only moves. |
+| Roster | Member profiles, gear, class/spec, guild, role-like labels, platoon assignments, priorities, attendance history, and score snapshots. |
 | Scores | BDO OCR screenshot uploads, Ikusa uploads, score menus, personal stats, alliance/guild breakdowns, and class filters. |
 | Tracking | Guild and player lookup, guild consistency, public guild lists, tierlists, class popularity, class performance, and Guild Wars pages. |
 | Community | Yap messages, recruiting browser posts, merc signup posts, verification posts, and Trial Server flows. |

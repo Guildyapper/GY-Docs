@@ -1,3 +1,7 @@
+---
+description: "Recruiting posts, looking-for-merc posts, and verification tools for community servers."
+---
+
 # Recruiting, Mercs, And Verify
 
 Community servers get tools for public coordination: recruiting posts, looking-for-merc posts, and verification messages.

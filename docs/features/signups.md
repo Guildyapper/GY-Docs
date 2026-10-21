@@ -1,10 +1,15 @@
+---
+description: How signups work for Guild and Alliance servers, from event creation to waitlists and results.
+---
+
 # Signups
 
-Signups are the core event flow for Guild / Alliance servers. They let officers create events, members choose attendance, and leadership manage waitlists, parties, charts, results, and score links.
+Signups are the core event flow for Guild / Alliance servers. They let officers create events, members choose attendance, and leadership manage waitlists, platoons (in-game parties), charts, results, and score links.
 
 <div class="quick-links">
   <a href="https://guildyapper.com/management/signups">Website Signups</a>
-  <a href="/features/parties-and-waitlist">Parties and Waitlist</a>
+  <a href="/events/platoons">Platoons and Function Roles</a>
+  <a href="/events/waitlist-and-priority">Waitlist and Priority</a>
   <a href="/features/attendance">Attendance</a>
   <a href="/features/scores">Scores</a>
 </div>
@@ -28,7 +33,7 @@ Members can usually respond to signups. Officers/admins create and manage signup
 - Officer/admin role configured.
 - Guild names configured for guild/alliance registration.
 - Optional Node War voice channel for missing-in-voice checks.
-- Optional parties configured through `/configure parties`.
+- Optional platoons configured through `/configure parties`.
 
 ## Create A Node War Signup
 
@@ -69,13 +74,9 @@ GvG signups include an enemy guild and a match type.
 For ranked GvG signups, make sure your own guild names are configured in `/configure server`.
 :::
 
-## Create A Guild League Signup
+## Guild League
 
-```text
-/signup gleague date:19.05.2026 start-time:20:00 end-time:22:00 role:@Guild
-```
-
-Guild League signups create time slots for valid matches in the configured time range.
+Guild League has its own command, officer actions, and public match pages. See [Guild League](/events/guild-league).
 
 ## Create A Custom Signup
 
@@ -85,9 +86,11 @@ Guild League signups create time slots for valid matches in the configured time 
 
 Use custom signups for practice, training, meetings, or other events that still need attendance tracking.
 
-::: info Custom Party Size
-Custom and GvG signups can use a custom party size. If no custom size is set, GuildYapper uses normal signup behavior.
+::: info Custom Platoon Size
+Custom and GvG signups can use a custom platoon size. If no custom size is set, GuildYapper uses normal signup behavior.
 :::
+
+Every signup uses a signup profile, which decides the platoons (in-game parties) and function roles it offers. See [Event Types and Signup Profiles](/events/event-types) for the profiles, [Platoons and Function Roles](/events/platoons) for how a platoon is built, [Waitlist and Priority](/events/waitlist-and-priority) for how priority decides who gets a spot, and the [Platoon Builder](/events/platoon-builder) for assembling one event's composition on the website.
 
 ## Attendance States
 
@@ -141,6 +144,8 @@ Officers can use the signup's management menu and `/signup list`.
 /signup list
 ```
 
+`/signup list` shows every signup with its channel, name, date, result (**N/A**, **WON**, or **LOST**), attendance count, and a numeric **Id**, each with its own **Manage** button. The footer totals the number of signups shown and the **server's average attendance**.
+
 Common management actions include:
 
 - Refresh message.
@@ -167,7 +172,11 @@ Common management actions include:
 
 ## Website Signup Management
 
-Open [Website Signups](https://guildyapper.com/management/signups) for a bigger event view. Officers can browse signups, open one event, inspect participants, update attendance, move members, and work with party assignments.
+Open [Website Signups](https://guildyapper.com/management/signups) for a bigger event view. Officers can browse signups, open one event, inspect participants, update attendance, move members, and work with platoon assignments.
+
+The event detail view has keyboard shortcuts: `/` focuses search, `a` marks the selected member Can, `w` marks them Waiting, and `Esc` clears the selection. Three switches control the view: announcing the change and DMing participants (Premium) fire on every attendance change, and a **priority badges** toggle shows each member's priority next to them — see [Waitlist and Priority](/events/waitlist-and-priority) for how that priority is calculated.
+
+Every event also has a **VODs** button. See [VOD Reviews](/scores/vod-reviews).
 
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>
@@ -187,7 +196,7 @@ Ask the member to update their profile:
 
 ### Waitlist order looks unexpected
 
-Check waitlist mode, class priority, member priority, party priority, fair mode, and party overflow settings. See [Parties and Waitlist](/features/parties-and-waitlist).
+Check waitlist mode, class priority, member priority, platoon priority, fair mode, and platoon overflow settings. See [Waitlist and Priority](/events/waitlist-and-priority).
 
 ### The signup message was deleted
 

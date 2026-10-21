@@ -1,3 +1,7 @@
+---
+description: How Trial Server mode runs a separate applicant workflow from a normal guild Discord.
+---
+
 # Trial Servers
 
 Trial Server mode creates a dedicated Discord workflow for applicants. It is separate from a normal Guild / Alliance server.

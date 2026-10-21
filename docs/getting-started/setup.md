@@ -1,3 +1,7 @@
+---
+description: How to run /setup and configure GuildYapper for your server.
+---
+
 # Setup
 
 Use `/setup` once after inviting GuildYapper. Setup chooses the server type, region, roles, and channels GuildYapper uses later.
@@ -77,7 +81,7 @@ Guild Tracker commands are available for EU, NA, and SA. RU, MENA, SEA, KR, and 
 
 | Server type | Choose it when | Main tools |
 | --- | --- | --- |
-| Guild / Alliance | Your Discord runs Node War, GvG, Guild League, or other guild events. | Signups, attendance, roster, parties, Guild Tracker, Yap, scores. |
+| Guild / Alliance | Your Discord runs Node War, GvG, Guild League, or other guild events. | Signups, attendance, roster, platoons (in-game parties), Guild Tracker, Yap, scores. |
 | Community | Your Discord is a public or community hub rather than one guild roster. | Guild Tracker, recruiting, merc posts, verification, tierlist updates, Yap. |
 | Trial Server | You want a dedicated Discord for trial applicants. | Trial signup, automatic channels, trial history, trial ending flow. |
 
@@ -103,8 +107,8 @@ Read more in [Server Types](/getting-started/server-types).
 /configure server
 ```
 
-::: tip Default Parties
-Guild / Alliance setup creates starter Node War parties such as Main, Defense, and Flex. You can adjust these later with `/configure parties`.
+::: tip Default Platoons
+Guild / Alliance setup creates starter Node War platoons such as Main, Defense, and Flex. You can adjust these later with `/configure parties`.
 :::
 
 <div class="screenshot-slot">
@@ -130,7 +134,9 @@ The next useful actions are:
 | Goal | Where to go next |
 | --- | --- |
 | Create events | [Signups](/features/signups) |
-| Configure parties and waitlist behavior | [Parties and Waitlist](/features/parties-and-waitlist) |
+| Configure platoons and function roles | [Platoons and Function Roles](/events/platoons) |
+| Configure waitlist and priority behavior | [Waitlist and Priority](/events/waitlist-and-priority) |
+| Change server settings | [Server Settings](/configuration/server-settings) |
 | Let members update their profile | [Members and Roster](/bot/members-and-roster) |
 | Enable reminders and automation | [Schedulers](/bot/schedulers) |
 | Check paid and trial status | [Premium](/premium) |

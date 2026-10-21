@@ -1,3 +1,7 @@
+---
+description: How members save and post short community messages with the Yap feature.
+---
+
 # Yap
 
 Yap is GuildYapper's lightweight community message feature. Members can save short messages, and the bot can later post a random saved yap.
@@ -11,6 +15,7 @@ Yap is GuildYapper's lightweight community message feature. Members can save sho
 
 - Stores server-specific yap messages.
 - Posts a random yap with `/yap`.
+- Adds four message context menu actions: Yap, Add Yap, Delete Yap, and Mute Yaps.
 - Lets admins enable or disable Yap.
 - Blocks role mentions by default.
 - Can block all mentions if enabled in server config.
@@ -41,7 +46,7 @@ Guild / Alliance and Community servers can use Yap when it is enabled. Members c
 /yap
 ```
 
-3. Remove a bad yap through the message context menu if available.
+3. Manage yaps through the message [context menu](#message-context-menu).
 
 ::: info Cooldown
 The default yap cooldown is 3 minutes. Officers can set a custom cooldown in `/configure server`.
@@ -50,6 +55,17 @@ The default yap cooldown is 3 minutes. Officers can set a custom cooldown in `/c
 ::: warning Mentions
 Role mentions are blocked by default. If your community keeps trying to add noisy yaps, enable the setting that blocks all mentions.
 :::
+
+## Message Context Menu
+
+Right-click (or long-press) a message and open **Apps** for four yap actions:
+
+| Action | What it does |
+| --- | --- |
+| Yap | Replies to the message with a random saved yap. |
+| Add Yap | Turns the selected message into a new saved yap. |
+| Delete Yap | Removes a yap, with buttons to delete it or blacklist it, and logs the action to the log channel. |
+| Mute Yaps | Stops the bot from mentioning you when someone yaps on your messages — the only control an annoyed member has. |
 
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>

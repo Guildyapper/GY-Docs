@@ -1,3 +1,7 @@
+---
+description: How to automate recurring events and reminders with GuildYapper's schedulers.
+---
+
 # Schedulers
 
 Schedulers automate repeated event and reminder work. Configure them from Discord with:
