@@ -62,11 +62,12 @@ A profile is stored per region: family name, gear, and class apply to whichever 
 The [Profile page](https://guildyapper.com/profile) is usually easier for full profile cleanup because it has more room than a Discord modal.
 :::
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of the profile page.
-  Suggested path: `/screenshots/members/profile-page.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/members/profile-page.webp"
+  alt="Website profile page with family name, gear and class"
+  caption="Members keep family name, guild, class and gear current on their profile."
+  maxWidth="900px"
+/>
 
 ## Listing Members
 
@@ -126,11 +127,12 @@ Officers can review, per member:
 
 This is the same member details panel used by the [Platoon Builder](/events/platoon-builder#member-details).
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of the roster list and member details modal.
-  Suggested path: `/screenshots/members/roster-detail.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/members/roster-detail.webp"
+  alt="Website roster with member stats and filters"
+  caption="The roster shows the whole server at a glance: gear, combat performance, attendance and platoon."
+  maxWidth="900px"
+/>
 
 ## Common Issues
 

@@ -57,6 +57,13 @@ Node War signup options include:
 Use visible attendance when your internal cap and public-facing target are different. For example, you may internally allow overflow while showing a cleaner target to members.
 :::
 
+<ScreenshotFigure
+  src="/screenshots/signups/discord-nodewar-signup.webp"
+  alt="Node War signup message in Discord with details, waitlist, platoons and buttons"
+  caption="A Node War signup in Discord: details, undecided/can't/waiting lists, platoons, and the member buttons."
+  maxWidth="560px"
+/>
+
 ## Create A GvG Signup
 
 ```text
@@ -164,11 +171,12 @@ Common management actions include:
 - Export attendance.
 - View class, gearscore, or guild distribution charts.
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of a live signup with management options.
-  Suggested path: `/screenshots/signups/signup-management.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/signups/signup-management.webp"
+  alt="Officer actions menu opened under a Node War signup in Discord"
+  caption="Officers run a signup from the Officer actions menu under the signup message."
+  maxWidth="560px"
+/>
 
 ## Website Signup Management
 
@@ -178,11 +186,12 @@ The event detail view has keyboard shortcuts: `/` focuses search, `a` marks the 
 
 Every event also has a **VODs** button. See [VOD Reviews](/features/vod-reviews).
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of the website signup detail view.
-  Suggested path: `/screenshots/signups/website-signup-detail.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/signups/website-signup-detail.webp"
+  alt="Website event detail with attendance, draft panel and member list"
+  caption="The event detail on the website: attendance counts, the draft panel, and the member list."
+  maxWidth="900px"
+/>
 
 ## Common Issues
 

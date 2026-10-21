@@ -35,6 +35,13 @@ Officers create the signup. Any member with the required role takes a timeslot. 
 Guild League matches run every 20 minutes and cannot start during node war. The `start-time`/`end-time` autocomplete only offers times the game will actually match. Because the time fields accept any typed value, `interval` and `nodewar-slots` together let you build a signup that runs off the game's default cycle.
 :::
 
+<ScreenshotFigure
+  src="/screenshots/signups/discord-guild-league.webp"
+  alt="Guild League signup in Discord with a roster per 20-minute timeslot"
+  caption="Each timeslot lists who plays and who waits; members pick a role with the buttons."
+  maxWidth="560px"
+/>
+
 ## Officer Actions
 
 Guild League signups add officer actions on top of the usual signup management menu:

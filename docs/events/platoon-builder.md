@@ -8,11 +8,12 @@ The Platoon Builder is a website tool for assembling the platoon (in-game party)
 
 This page covers the builder itself. For how platoons are configured and how members get their default assignment, see [Platoons and Function Roles](/events/platoons). For how priority decides who gets a spot, see [Waitlist and Priority](/events/waitlist-and-priority).
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of the Platoon Builder.
-  Suggested path: `/screenshots/parties/platoon-builder.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/parties/platoon-builder.webp"
+  alt="Platoon Builder with the participant pool, composition summary and member details"
+  caption="Pool and filters on the left, composition summary and platoons on the right, member details below."
+  maxWidth="900px"
+/>
 
 ## Who Can Use It
 

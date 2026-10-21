@@ -38,13 +38,6 @@ Use the sidebar to browse everything else. On a phone, open it with the menu but
 | Community | Yap messages, recruiting browser posts, merc signup posts, verification posts, and Trial Server flows. |
 | Premium | Scheduler automation, VOD reviews, attendance safeguards, custom signup profiles, and bot profile customization. |
 
-<ScreenshotFigure
-  src="/screenshots/FeatureOverview.webp"
-  alt="GuildYapper feature overview"
-  caption="GuildYapper brings Discord commands and website dashboards together."
-  width="820px"
-/>
-
 ::: tip Commands Depend On Server Type
 Discord only shows the commands available in your server type. The [Slash Commands](/reference/commands) page lists them by area so officers can quickly find the right one.
 :::

@@ -38,13 +38,6 @@ Use a barra lateral para navegar pelo restante. No celular, abra-a pelo botão d
 | Comunidade | Mensagens Yap, posts de recrutamento, posts de inscrição de merc, posts de verificação e fluxos do Trial Server. |
 | Premium | Automação de agendadores, revisões de VOD, proteções de presença, perfis de inscrição personalizados e personalização do perfil do bot. |
 
-<ScreenshotFigure
-  src="/screenshots/FeatureOverview.webp"
-  alt="Visão geral dos recursos do GuildYapper"
-  caption="GuildYapper reúne comandos do Discord e painéis do site."
-  width="820px"
-/>
-
 ::: tip Os Comandos Dependem do Tipo de Servidor
 O Discord mostra apenas os comandos disponíveis para o tipo do seu servidor. A página de [Comandos Slash](/pt/reference/commands) lista os comandos por área para que os oficiais possam encontrar rapidamente o correto.
 :::

@@ -75,7 +75,9 @@
   text-decoration: underline;
 }
 
+/* Placeholders are notes for contributors; keep them out of the published pages. */
 .screenshot-slot {
+  display: none;
   border: 1px dashed var(--gy-screenshot-border);
   border-radius: 8px;
   padding: 18px;

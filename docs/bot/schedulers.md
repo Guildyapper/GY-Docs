@@ -41,11 +41,12 @@ Ping undecided members and ping missing registrations are available without Prem
 | Nodewar announcement | Premium | Sends a pre-war reminder in signup channels, can mention members marked as Can, and can include attendance/class context. |
 | Check up on inactive members | Premium | Checks members who have not attended for a configured number of days, can DM members, and can ping officers in the log channel. |
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of `/configure scheduler`.
-  Suggested path: `/screenshots/premium/scheduler-config.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/premium/scheduler-config.webp"
+  alt="Schedulers tab with reminder times for undecided members"
+  caption="The Schedulers tab on the website is the same as /configure scheduler."
+  maxWidth="900px"
+/>
 
 ## Automatic Signup Posting
 

@@ -37,11 +37,12 @@ The page header shows how many streams are currently live and how many are from 
 Apart from the Ikusa Logger and the War Map, Tools is a curated collection of external resources maintained by third parties, not GuildYapper features.
 :::
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of the Tools page.
-  Suggested path: `/screenshots/website/tools.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/website/tools.webp"
+  alt="Tools page with the Combat Toolkit and Resource Library"
+  caption="The Tools page."
+  maxWidth="900px"
+/>
 
 ## Common Issues
 

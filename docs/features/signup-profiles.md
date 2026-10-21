@@ -67,11 +67,12 @@ System profiles can be renamed, disabled, customized, and set as default, but th
 Activating or deactivating a profile only changes what is offered for new signups. It does not affect signups that already exist.
 :::
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of the Signup Profiles page, Profiles tab.
-  Suggested path: `/screenshots/parties/signup-profiles.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/parties/signup-profiles.webp"
+  alt="Signup Profiles page on the Profiles tab"
+  caption="Each profile card lists the platoons and function roles it offers."
+  maxWidth="900px"
+/>
 
 ## Function Roles
 

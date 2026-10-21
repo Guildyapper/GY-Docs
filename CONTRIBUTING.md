@@ -63,6 +63,8 @@ Not every page needs every section (a reference page like the glossary skips `Wh
   </div>
   ```
 
+  Placeholders are hidden on the published site; they only mark the gap in the source.
+
 ## Translations
 
 `docs/pt/` exists and most English pages have a Portuguese counterpart there — but some newer ones do not yet. If you change an English page that has a `docs/pt/` counterpart, either update it yourself or note the gap in your PR description so a translator can catch up. If the page has no Portuguese counterpart, a translation is welcome but not required.

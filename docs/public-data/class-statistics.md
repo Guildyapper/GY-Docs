@@ -34,6 +34,13 @@ Highlight indicators call out the most picked class, best average K/D, most dama
 
 The main table toggles between per-hour and per-war views, and between class and class+spec rows. Selecting a row opens matchups and further detail.
 
+<ScreenshotFigure
+  src="/screenshots/stats/class-performance.webp"
+  alt="Class Performance page with highlight cards and class comparison"
+  caption="Class Performance: highlight cards per category and a class comparison chart."
+  maxWidth="900px"
+/>
+
 ## Leaderboards
 
 The [Leaderboards](https://guildyapper.com/class-leaderboards) page is not covered by the other two — it surfaces standout individual performances rather than aggregates.

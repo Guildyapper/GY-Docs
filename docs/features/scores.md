@@ -91,6 +91,13 @@ GuildYapper keeps BDO OCR and Ikusa as separate score sources. The website lets 
 
 Personal stats surface through `/member view` ("View user's gear") and the personal pages on the website.
 
+<ScreenshotFigure
+  src="/screenshots/scores/personal-scores.webp"
+  alt="Personal scores page with all-time record, K/D and highlights"
+  caption="Your personal scores: all-time record, killstreaks, best war and average rank."
+  maxWidth="900px"
+/>
+
 ## Server Score Stats
 
 The [Scores Management](https://guildyapper.com/management/scores) page has **Stats**, **IKUSA**, and **BDO OCR** tabs, with filters by source, class, and period.
@@ -111,11 +118,12 @@ The Stats tab includes:
 
 Each score session has its own link, keyed by source and public identifier, so it can be shared outside Discord. A VOD can be attached to a session — see [VOD Reviews](/features/vod-reviews).
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of a score session detail page.
-  Suggested path: `/screenshots/scores/session-detail.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/scores/session-detail.webp"
+  alt="Scores Management list of Ikusa sessions with results and matchups"
+  caption="Scores Management lists every session with result, matchups, kills, deaths and K/D."
+  maxWidth="900px"
+/>
 
 ## Common Issues
 

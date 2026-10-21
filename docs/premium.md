@@ -24,11 +24,12 @@ VIP unlocks **exactly the same features** as Premium. On top of that it adds pri
 
 Prices are set by Discord's store, billed in US dollars as a recurring subscription, and are managed and cancelled from Discord's own user subscription settings.
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of the Premium and VIP plan cards.
-  Suggested path: `/screenshots/premium/plans.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/premium/plans.webp"
+  alt="Free, Premium and VIP plan cards"
+  caption="Free, Premium and VIP plans as shown on guildyapper.com/premium."
+  maxWidth="900px"
+/>
 
 ## What Premium Unlocks
 

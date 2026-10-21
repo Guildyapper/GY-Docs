@@ -28,11 +28,12 @@ Officers/admins configure platoons and function roles. Members see their assignm
 | Overflow | `SPLIT`, `OVERFLOW` or `LIMIT`. |
 | Target | Lets the platoon ask for volunteers when it is below target. |
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of `/configure parties`.
-  Suggested path: `/screenshots/parties/platoon-config.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/parties/platoon-config.webp"
+  alt="Platoons tab with priority, limits, size, overflow and target per platoon"
+  caption="The Platoons tab on the website mirrors /configure parties."
+  maxWidth="900px"
+/>
 
 ## Overflow Behavior
 
@@ -68,11 +69,12 @@ Function roles are **signup labels, not Discord roles**. Each one has an emoji, 
 
 Function roles are also created and edited through `/configure parties`, on the Roles tab on the website.
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of the Roles tab.
-  Suggested path: `/screenshots/parties/function-roles.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/parties/function-roles.webp"
+  alt="Roles tab listing function roles with emoji, priority and limits"
+  caption="Function roles carry an emoji, priority and optional limits, and are assigned to members."
+  maxWidth="900px"
+/>
 
 ## Assigning Members
 
@@ -102,11 +104,12 @@ The website platoon builder and Discord management actions can handle two kinds 
 | Temporary event move | You only want this member moved for the current signup. |
 | Server roster move | You want this member's default platoon assignment changed for future signups. |
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of the website platoon builder with pool and platoon board.
-  Suggested path: `/screenshots/parties/party-builder.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/parties/platoon-builder.webp"
+  alt="Platoon Builder with the participant pool, composition summary and member details"
+  caption="The Platoon Builder handles temporary and permanent moves for one event."
+  maxWidth="900px"
+/>
 
 ## Where To Go Next
 

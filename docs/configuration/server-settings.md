@@ -34,11 +34,12 @@ The tabs do not line up one-to-one. The website splits Yap and Schedulers out in
 | Waitlist | Waitlist & Automation |
 | (inside `/configure scheduler`) | Schedulers |
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of the website Settings page.
-  Suggested path: `/screenshots/configuration/web-settings.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/configuration/web-settings.webp"
+  alt="Website Settings page on the General tab"
+  caption="The website Settings page, General tab."
+  maxWidth="900px"
+/>
 
 ## General
 
@@ -97,11 +98,12 @@ The Waitlist & Automation tab (Discord: Waitlist) sets waitlist mode, tie-breake
 
 **Attendance watch channel** (Premium): posts applied no-show penalties, and also warns about members who have sat at `Can't` or `Undecided` for 7, 14, and 21 days.
 
-<div class="screenshot-slot">
-  <strong>Screenshot placeholder</strong>
-  Add a screenshot of the Discord Waitlist tab.
-  Suggested path: `/screenshots/configuration/waitlist-tab.webp`
-</div>
+<ScreenshotFigure
+  src="/screenshots/configuration/waitlist-tab.webp"
+  alt="Waitlist and Automation tab with waitlist mode and tie-breaker"
+  caption="The Waitlist & Automation tab on the website."
+  maxWidth="900px"
+/>
 
 ## Guild Tracker
 
