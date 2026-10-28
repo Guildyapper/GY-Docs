@@ -8,6 +8,7 @@ A draft lets everyone sign up and fills the roster **by priority at a set time**
 
 <div class="quick-links">
   <a href="https://guildyapper.com/management/settings?tab=waitlist#signup-fill">Set up a draft</a>
+  <a href="/features/presets/">Signup presets</a>
   <a href="/features/signup-profiles">Signup Profiles</a>
   <a href="/events/platoons">Parties and Waitlist</a>
 </div>
@@ -22,6 +23,8 @@ A draft lets everyone sign up and fills the roster **by priority at a set time**
 The draft uses your waitlist order (priority, gear score, signup time or random) and all your [limits](/events/platoons): "at most", "prefer at most", "at least" and platoons with **Fill first**.
 
 ## Setting It Up
+
+The quickest way is **Set up signups**: three questions suggest a [signup preset](/features/presets/) that sets all of this for you. Or set it by hand as below.
 
 Set it once as the **server default** and every signup profile follows it. A profile can have **its own settings** instead, so Siege can draft while Node War stays first come, first served. Turning a draft on applies to signups posted from then on; signups that are already open keep filling first come.
 
@@ -45,6 +48,7 @@ With **Either one**, a core member with high personal priority still gets in ins
 - **Preview** (Premium): the bot posts the projected roster to your log channel before the draft time, with **Apply now** and **Open on website**.
 - **Pin in / pin out**: on the website, before the draft. Pinned-in members are confirmed even past a limit; pinned-out members stay on the waitlist.
 - Moving members in and out by hand works as always. Nobody is ever removed automatically.
+- Officers who lock a first-come signup (8 spots or fewer, or fewer than the shown cap) get a "use a draft instead" tip with a link to switch.
 
 ## Free and Premium
 

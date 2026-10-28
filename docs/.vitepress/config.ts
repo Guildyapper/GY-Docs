@@ -23,6 +23,7 @@ const enSidebar = [
       { text: "Signups", link: "/features/signups" },
       { text: "Event Types and Signup Profiles", link: "/features/signup-profiles" },
       { text: "Draft Signups", link: "/features/draft" },
+      { text: "Signup Presets", link: "/features/presets/" },
       { text: "Guild League", link: "/events/guild-league" },
       { text: "Attendance", link: "/features/attendance" },
       { text: "Platoons and Function Roles", link: "/events/platoons" },
