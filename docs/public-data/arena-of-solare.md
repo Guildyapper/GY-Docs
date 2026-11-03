@@ -33,6 +33,8 @@ The **Top 100 Mix** panel shows which classes are represented in the top 100. Fo
 
 Filters are available by class and by elo range, along with a Patch Notes button.
 
+The **Legacy** column shows the player's Solare Legacy Emblem (I: First Battle up to VII: Glory) for the class they are ranked on, with their Legacy Score beside it; hover it for the tier and the class wins. An emblem needs both the score and the class wins, as in the game. Click the arrow beside a family name to see their most played classes with record, win rate and last games. Opening a player shows the emblem for every class they have one on. Snapshots uploaded before the Ikusa logger read these (2026-10-29 maintenance) have none.
+
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>
   Add a screenshot of the AOS Rankings page.
