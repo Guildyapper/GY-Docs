@@ -98,6 +98,8 @@ A **movement feed** covers the last three days across three tabs: entries and ex
 
 A gains-and-losses panel highlights the biggest risers and fallers over two weeks, and shows which guild each mover came from or went to.
 
+The guild list, the guild popup and each guild's page show the same 14-day net movement, so a guild reads the same figure wherever you open it from.
+
 Guild and player detail pages give the full history behind any name in the feed.
 
 The website provides larger views for tracker data:
@@ -105,6 +107,28 @@ The website provides larger views for tracker data:
 - [Dashboard](https://guildyapper.com/guild-tracker/dashboard): broad overview.
 - [Guilds](https://guildyapper.com/guild-tracker/guilds): searchable guild list and details.
 - [Players](https://guildyapper.com/guild-tracker/players): searchable player list and details.
+
+### Linking to a search
+
+The Guilds and Players pages keep their search and filters in the address bar, so you can send someone a link straight to a result, and the back button returns you to the same list. Whoever opens it signs in with Discord first and lands on the same search.
+
+```
+https://guildyapper.com/guild-tracker/players?region=EU&search=Player1234
+```
+
+| Parameter | Pages | Meaning |
+| --- | --- | --- |
+| `region` | both | `EU`, `NA` or `SA` |
+| `search` | both | The search text |
+| `status` | Players | `guilded`, `guildless` or `nwAlliance` (default: all players) |
+| `charName` | Players | `true` to search character names as well |
+| `active` | Guilds | `false` to include disbanded guilds (default: active only) |
+| `alliance` | Guilds | `true` to show only guilds in an alliance |
+| `sort` | Guilds | `name`, `members` or `movement` |
+| `dir` | both | `desc` for descending order |
+| `page`, `pageSize` | both | Page number, and `15`, `25`, `50` or `100` rows per page |
+
+Only the options you change appear in the link. Values the page does not recognise are ignored.
 
 <div class="screenshot-slot">
   <strong>Screenshot placeholder</strong>
