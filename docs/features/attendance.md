@@ -100,6 +100,38 @@ See [Waitlist and Priority](/events/waitlist-and-priority) for how effective pri
 
 Configure the channel in [Server Settings](/configuration/server-settings).
 
+## Voice Check
+
+**Premium.** In the minutes before a Node War starts, GuildYapper checks who signed up with **Can** but is not in voice yet and pings those members. This replaces pinging missing members by hand every minute.
+
+How it works:
+
+- Each check mentions every member who is on **Can** and not in the voice channel. Members on the waitlist, on vacation, on **Can't**, **Undecided** or marked as no-show are not pinged, and neither are members who left the server.
+- Each new check deletes the previous one, so the channel shows one current list instead of a pile of pings.
+- When everyone is in voice, the last message says so and the checks stop.
+- On the last check, anyone still missing is listed and the officer role is mentioned if you set one. That message stays as a record of who did not show up.
+- Only Node War signups are checked (this includes Siege). Draft signups are checked once the draft has run.
+
+Settings, all in the **Voice Check** card on the website under Server Settings, in the **Waitlist & Automation** tab:
+
+| Setting | Default | Range | Meaning |
+| --- | --- | --- | --- |
+| Voice check pings | Off | On / Off | Turns the feature on for the server. |
+| First check | 10 minutes before | 1-15 | When the first check runs. |
+| Last check | 2 minutes before | 1-5 | When the final check runs. It must be later than the first check. |
+| Time between checks | 2 minutes | 1-3 | The gap between checks. With the defaults the checks run 10, 8, 6, 4 and 2 minutes before the start. |
+| Voice channel | Any | A voice channel | The channel members must be in. When unset, any voice or stage channel counts, except the AFK channel. |
+| Ping channel | The signup's channel | A text channel | Where the checks are posted. |
+| Officer role | None | A role | Mentioned on the last check only. |
+
+::: tip Pick The Voice Channel
+If your guild uses one dedicated voice channel for Node War, set it. Members who sit in another voice channel then still show up as missing.
+:::
+
+::: warning The Bot Needs To See The Channels
+The bot has to be able to view the voice channel and write in the ping channel. If a channel is deleted or hidden from the bot, nothing is pinged.
+:::
+
 ## Availability
 
 Every member has a weekly availability registered on their profile. Without Premium, it is informational only — officers can see it, but nothing acts on it automatically. With Premium active, Node War signups use that availability to automatically mark a member **Can** or **Can't**.

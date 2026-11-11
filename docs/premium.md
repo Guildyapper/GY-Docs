@@ -36,6 +36,7 @@ Prices are set by Discord's store, billed in US dollars as a recurring subscript
 - **VOD Reviews** — timestamped notes and Ikusa context on top of any uploaded recording. See [VOD Reviews](/features/vod-reviews).
 - **Scheduler automation** — automatic signup posting and closing, pre-war announcements, and inactive-member checks. See [Schedulers](/bot/schedulers).
 - **Attendance safeguards** — no-show penalties and an attendance watch channel for stale responses. See [Server Settings](/configuration/server-settings).
+- **Voice check** — automatic pings for signed-up members who are not in voice shortly before Node War. See [Attendance](/features/attendance#voice-check).
 - **Smart signup flow** — auto-signup from weekly availability, and waitlist move DMs. See [Server Settings](/configuration/server-settings) and [Waitlist and Priority](/events/waitlist-and-priority).
 - **Custom signup profiles and unlimited function roles** — beyond the free plan's 5 and 5. See [Event Types and Signup Profiles](/features/signup-profiles) and [Platoons and Function Roles](/events/platoons).
 - **Member markers, a custom bot profile, and officer DMs** — covered below in [Included Features](#included-features).

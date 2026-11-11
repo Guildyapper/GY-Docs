@@ -98,6 +98,8 @@ The Waitlist & Automation tab (Discord: Waitlist) sets waitlist mode, tie-breake
 
 **Attendance watch channel** (Premium): posts applied no-show penalties, and also warns about members who have sat at `Can't` or `Undecided` for 7, 14, and 21 days.
 
+**Voice check** (Premium): the **Voice Check** card below No-Show Penalty pings members who signed up with `Can` but are not in voice shortly before Node War. You set the first and last check (1-15 and 1-5 minutes before the start), the time between checks (1-3 minutes), the voice channel, the ping channel and an officer role for the last check. See [Attendance](/features/attendance#voice-check) for how it behaves.
+
 <ScreenshotFigure
   src="/screenshots/configuration/waitlist-tab.webp"
   alt="Waitlist and Automation tab with waitlist mode and tie-breaker"
@@ -145,6 +147,7 @@ Settings that need GuildYapper Premium are marked with a **🔒 Premium** tag, m
 - Custom bot profile (configured in Discord via `/configure server`).
 - Waitlist move DMs.
 - Automatic no-show penalty, including penalty priority, duration, DMs, and the attendance watch channel.
+- Voice check pings before Node War.
 - Nodewar availability auto-signup (can be toggled anywhere, but is only active with Premium).
 
 On free servers these controls are locked. Run `/premium` in Discord for details, or see [Premium](/premium).
