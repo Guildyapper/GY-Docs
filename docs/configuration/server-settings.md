@@ -98,7 +98,7 @@ The Waitlist & Automation tab (Discord: Waitlist) sets waitlist mode, tie-breake
 
 **Attendance watch channel** (Premium): posts applied no-show penalties, and also warns about members who have sat at `Can't` or `Undecided` for 7, 14, and 21 days.
 
-**Voice check** (Premium): the **Voice Check** card below No-Show Penalty pings members who signed up with `Can` but are not in voice shortly before Node War. You set the first and last check (1-15 and 1-5 minutes before the start), the time between checks (1-3 minutes), the voice channel, the ping channel and an officer role for the last check. See [Attendance](/features/attendance#voice-check) for how it behaves.
+**Voice check** (Premium): the **Voice Check** card below No-Show Penalty pings members who signed up with `Can` but are not in voice shortly before Node War. A timeline sets the first and last check (1-15 and 1-5 minutes before the start) and how often it checks in between (every 1-3 minutes). See [Attendance](/features/attendance#voice-check) for how it behaves.
 
 <ScreenshotFigure
   src="/screenshots/configuration/waitlist-tab.webp"
