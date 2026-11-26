@@ -112,7 +112,7 @@ How it works:
 - On the last check, anyone still missing is listed. That message stays as a record of who did not show up.
 - Being in any voice or stage channel counts as present, except the AFK channel.
 - The pings are posted in the signup's channel.
-- Only Node War signups are checked (this includes Siege). Draft signups are checked once the draft has run.
+- Only Node War signups are checked (this includes Siege). [Draft signups](/features/draft) are checked whether or not the draft has run: while it has not, only the members who are already **Confirmed** count, not the ones who are still **Available**.
 - Officers can also run a check by hand from the signup's officer menu with **Ping members not in voice**. It posts the same message, replaces the previous ping (automatic or manual) and, when everyone is in voice, ends the automatic checks too. The manual ping works on every server, not only Premium.
 
 The **Voice Check** card on the website (Server Settings, **Waitlist & Automation** tab) has a timeline instead of plain number fields. Drag the first-check handle to set how early the checks start (1-15 minutes before Node War) and the last-check handle to set the final check (1-5 minutes before). The first check always stays earlier than the last. Below the timeline, choose how often it checks in between: every 1, 2 or 3 minutes. The card shows the resulting check times.
