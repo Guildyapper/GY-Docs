@@ -34,7 +34,7 @@ Ping undecided members and ping missing registrations are available without Prem
 
 | Scheduler | Free/Premium | What it does |
 | --- | --- | --- |
-| Ping undecided members | Free | Pings members still marked undecided on signups at up to three custom times before Node War time (for example 6h or 2h30m). Premium can also enable delayed DMs for undecided members. |
+| Ping undecided members | Free | Pings members still marked undecided on a signup at up to three reminder times. Premium allows eight and can also DM members who stay undecided. See [Undecided Reminders](#undecided-reminders). |
 | Ping missing Bot registrations | Free | Runs `/member missing` in a selected channel on Sundays before Node War time. |
 | Automatically post Node War signups | Premium | Posts signups on selected days and channels with default caps and lead time. |
 | Close Node War signups | Premium | Closes signups a set time after Node War time (for example 2h or 45m), with options for channel cleanup and default result. |
@@ -47,6 +47,26 @@ Ping undecided members and ping missing registrations are available without Prem
   caption="The Schedulers tab on the website is the same as /configure scheduler."
   maxWidth="900px"
 />
+
+## Undecided Reminders
+
+Each reminder has one of three types, and you can mix them:
+
+| Type | On Discord | Example use |
+| --- | --- | --- |
+| Before Node War | `3h` or `2h30m` | A last call on the day. |
+| After the signup is posted | `posted 24h` (at least 1h) | Give everyone a day to answer, however early the signup went up. |
+| On a weekday | `wed 18:00` (server region time) | Guilds that post the whole week at once. It repeats every week while the signup is open, up to four weeks before the start. |
+
+The Discord form has three reminder fields. With Premium you can set up to eight on the website; saving on Discord keeps reminders four and up. If Premium ends, only the first three saved reminders run.
+
+Rules that apply to every signup:
+
+- A reminder is skipped if it falls after the start, or within one hour of the signup being posted.
+- If two reminders fall within 30 minutes of each other, only the first is sent.
+- A new ping replaces the previous ping of the same signup. Pings of other signups in the channel stay.
+
+**Delayed DM (Premium):** 30 minutes after a signup's last reminder, the bot DMs the members who are still undecided at that moment. Nobody is messaged if the signup has closed or started by then, and members who blocked bot DMs are skipped.
 
 ## Automatic Signup Posting
 
